@@ -20,7 +20,14 @@ export function tokenize(text: string): string[] {
 }
 
 export function searchableTextFor(d: Record_): string {
-  return [d.nome, d.cientifico, d.sint_inicial, d.sint_avancado, d.agente, d.parte, d.categoria, d.cultura, d.regiao].join(' ');
+  const base = [d.nome, d.cientifico, d.sint_inicial, d.sint_avancado, d.agente, d.parte, d.categoria, d.cultura, d.regiao];
+  // Campos do schema v2 (opcionais) entram na busca quando presentes, sem exigir
+  // que todo registro já tenha sido migrado — ver src/types.ts (VisualInfo).
+  if (d.visual?.evidencias_chave) base.push(...d.visual.evidencias_chave);
+  if (d.visual?.diagnostico_diferencial) {
+    base.push(...d.visual.diagnostico_diferencial.map((x) => x.diferenca_principal));
+  }
+  return base.join(' ');
 }
 
 export function localMatch(data: Record_[], query: string, topN = 3): ScoredRecord[] {
