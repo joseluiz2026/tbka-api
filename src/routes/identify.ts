@@ -54,7 +54,7 @@ export default async function identifyRoutes(app: FastifyInstance): Promise<void
       if (images.length === 0) {
         const matches = localMatch(DATA, contextText, 3);
         if (matches.length === 0) {
-          reply.send({ data: [], message: 'Nenhum registro correspondente encontrado nos 50 problemas catalogados.' });
+          reply.send({ data: [], message: `Nenhum registro correspondente encontrado nos ${DATA.length} problemas catalogados.` });
           return;
         }
         reply.send({
@@ -89,13 +89,28 @@ export default async function identifyRoutes(app: FastifyInstance): Promise<void
         reply.send({
           data: [],
           observacao_visual: description,
-          message: 'Nenhum registro correspondente encontrado nos 50 problemas catalogados.',
+          message: `Nenhum registro correspondente encontrado nos ${DATA.length} problemas catalogados.`,
         });
         return;
       }
 
       const candidatesText = matches
-        .map((m) => `${m.record.id} — ${m.record.nome} (${m.record.categoria}). Sintomas: ${m.record.sint_inicial} ${m.record.sint_avancado}`)
+        .map((m) => {
+          const r = m.record;
+          let line = `${r.id} — ${r.nome} (${r.categoria}). Sintomas: ${r.sint_inicial} ${r.sint_avancado}`;
+          // Campos do schema v2 (opcionais): quando existirem, dão ao modelo
+          // pistas discriminativas melhores do que só os sintomas gerais.
+          if (r.visual?.evidencias_chave?.length) {
+            line += ` Evidências-chave: ${r.visual.evidencias_chave.join('; ')}.`;
+          }
+          if (r.visual?.diagnostico_diferencial?.length) {
+            const dd = r.visual.diagnostico_diferencial
+              .map((x) => `confundível com ${x.problema_id} (${x.diferenca_principal})`)
+              .join('; ');
+            line += ` Diagnóstico diferencial: ${dd}.`;
+          }
+          return line;
+        })
         .join('\n');
 
       const rankPrompt = `Descrição visual observada: "${description}"

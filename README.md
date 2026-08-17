@@ -1,6 +1,6 @@
 # TB Knowledge Agro — API v1
 
-Backend real da TB Knowledge Agro (TBKA): serve os 50 registros do catálogo
+Backend real da TB Knowledge Agro (TBKA): serve os 54 registros do catálogo
 (pragas, doenças, deficiências e distúrbios do café no ES) e faz o proxy
 server-side da identificação por foto via Groq — a `GROQ_API_KEY` nunca
 precisa ser colada no navegador.
@@ -11,7 +11,7 @@ briefing completo que originou este projeto.
 ## Stack
 
 Node.js + TypeScript + Fastify, pensado para rodar como função serverless na
-Vercel. Dataset em `src/data/records.json` (mesmos 50 registros do protótipo
+Vercel. Dataset em `src/data/records.json` (mesmos 54 registros do protótipo
 `tbka_prototype.html` / `tbka_developers.html`) — sem banco de dados nesta
 etapa.
 
@@ -51,13 +51,13 @@ Sobe em `http://localhost:3333`. Todas as rotas `/v1/*` exigem
 
 - `GET /v1/records` — lista com paginação (`page`, `page_size`) e filtros
   `categoria`, `cultura`, `regiao`, `q`.
-- `GET /v1/records/{id}` — ficha completa de um registro (`CAF-001`..`CAF-050`).
+- `GET /v1/records/{id}` — ficha completa de um registro (`CAF-001`..`CAF-054`).
 - `GET /v1/records/search` — mesmos filtros de `/v1/records`, sem paginação
   (era o endpoint marcado como roadmap em `tbka_developers.html`; agora
   funcional).
 - `POST /v1/identify` — aceita `descricao` (texto) e/ou `imagens` (array de
   até 5 objetos `{ parte, mime_type, base64 }`). Só texto → matching local
-  direto contra os 50 registros (mesmo contrato já documentado no
+  direto contra os 54 registros (mesmo contrato já documentado no
   playground). Com fotos → roda o mesmo fluxo em duas etapas do protótipo
   (visão Groq → matching local → ranking Groq), com a chave só no servidor.
 
