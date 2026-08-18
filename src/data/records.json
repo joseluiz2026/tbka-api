@@ -13,7 +13,56 @@
     "sint_avancado": "Pústulas amarelo-alaranjadas, necrose, desfolha e seca de ramos laterais.",
     "confianca": 0.85,
     "manejo_prev": "Adubação equilibrada, arejamento da lavoura (poda/desbaste) e uso de cultivares resistentes.",
-    "manejo_corr": "Fungicida sistêmico ou protetor registrado para ferrugem, conforme orientação de agrônomo."
+    "manejo_corr": "Fungicida sistêmico ou protetor registrado para ferrugem, conforme orientação de agrônomo.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Pústulas de pó alaranjado ficam quase sempre restritas à face inferior (verso) da folha, mesmo quando a mancha correspondente já é visível na face superior.",
+        "O pó alaranjado gruda no dedo ou no papel quando se toca a lesão — teste simples que ajuda a confirmar em campo.",
+        "A infecção costuma começar no terço inferior/interno da copa (mais sombreado e úmido) antes de subir para os ramos superiores."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-004",
+          "semelhanca": "Ambas causam manchas foliares de origem fúngica que podem ser confundidas à distância.",
+          "diferenca_principal": "A ferrugem tem pó alaranjado pulverulento no verso da folha; a cercosporiose tem lesão seca com centro claro e halo amarelo, sem pó.",
+          "orgao_diferenciador": "Face inferior da folha",
+          "dificuldade": "baixa"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Pequenas manchas cloróticas amareladas na face superior, sem pó visível ainda.",
+          "orgao": "Folha (face superior)",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "intermediario",
+          "aparencia": "Pústulas alaranjadas bem formadas e pulverulentas no verso, que grudam ao toque; ainda pouca queda foliar.",
+          "orgao": "Folha (face inferior)",
+          "intensidade": "moderada"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Necrose das lesões, desfolha intensa e seca de ramos laterais.",
+          "orgao": "Folhas e ramos",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Examinar o verso da folha em busca do pó alaranjado.",
+        "Tocar a lesão para confirmar que o pó gruda no dedo.",
+        "Observar se a infestação começou no terço inferior/interno da copa."
+      ],
+      "proxima_foto_recomendada": [
+        "Verso da folha",
+        "Ramo inteiro mostrando gradiente de severidade entre folhas"
+      ],
+      "confiabilidade_visual": "alta",
+      "diagnostico_exclusivamente_visual": "sim",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-002",
@@ -29,7 +78,47 @@
     "sint_avancado": "Minas ampliadas, necrose, rasgamento da folha, intensa desfolha e redução da área fotossintética.",
     "confianca": 0.8,
     "manejo_prev": "Monitoramento com armadilhas e preservação de inimigos naturais (parasitoides).",
-    "manejo_corr": "Inseticida seletivo registrado, priorizando controle biológico quando possível."
+    "manejo_corr": "Inseticida seletivo registrado, priorizando controle biológico quando possível.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "As minas são translúcidas e serpenteantes; contra a luz costuma-se ver a larva ou os excrementos escuros dentro da mina.",
+        "O ataque concentra-se nas folhas mais expostas ao sol, no terço superior da planta.",
+        "Cada mina evolui de um traço fino para uma mancha seca de contorno irregular, diferente de manchas fúngicas circulares."
+      ],
+      "diagnostico_diferencial": [],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Mina translúcida fina e curta, recém-iniciada.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "intermediario",
+          "aparencia": "Mina expandida, tornando-se parda, ainda restrita a uma área localizada da folha.",
+          "orgao": "Folha",
+          "intensidade": "moderada"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Mina seca e necrosada, rasgamento do limbo, desfolha intensa.",
+          "orgao": "Folha",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Abrir a mina cuidadosamente para verificar presença de larva ou pupa.",
+        "Contar o número de minas por folha para estimar o nível de infestação."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha inteira contra a luz",
+        "Verso da folha"
+      ],
+      "confiabilidade_visual": "alta",
+      "diagnostico_exclusivamente_visual": "sim",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-003",
@@ -45,7 +134,55 @@
     "sint_avancado": "Galerias internas, destruição da semente, frutos brocados, perda de peso, queda de qualidade e aumento de frutos secos ou chochos.",
     "confianca": 0.7,
     "manejo_prev": "Colheita e repasse (catação) completos, eliminação de frutos residuais na planta e no solo.",
-    "manejo_corr": "Controle biológico com fungo entomopatogênico ou inseticida específico registrado."
+    "manejo_corr": "Controle biológico com fungo entomopatogênico ou inseticida específico registrado.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Orifício único, circular e muito pequeno (cerca de 1 mm), geralmente próximo à coroa (região apical) do fruto.",
+        "Ao contrário de brocas de ramos, normalmente não há serragem externa visível ao redor do orifício.",
+        "Ao cortar o fruto ao meio, observam-se galerias internas atravessando o endosperma."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-024",
+          "semelhanca": "Ambas são causadas por besouros escolitídeos que perfuram tecido vegetal e deixam pequenos orifícios.",
+          "diferenca_principal": "A broca-do-café ataca o fruto; a broca-da-haste ataca ramos e hastes, geralmente com serragem visível na entrada da galeria.",
+          "orgao_diferenciador": "Fruto (broca-do-café) vs. ramo/haste (broca-da-haste)",
+          "dificuldade": "baixa"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Orifício externo pequeno, fruto ainda com aspecto externo normal.",
+          "orgao": "Fruto",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "intermediario",
+          "aparencia": "Início de escurecimento interno com parte do grão ainda intacta.",
+          "orgao": "Fruto (semente)",
+          "intensidade": "moderada"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Galerias internas extensas, destruição da semente, queda de qualidade.",
+          "orgao": "Semente",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Cortar o fruto ao meio para confirmar galerias e, se possível, a presença do inseto.",
+        "Verificar se o orifício está seco (infestação antiga) ou com resina fresca (infestação recente)."
+      ],
+      "proxima_foto_recomendada": [
+        "Fruto cortado ao meio",
+        "Cacho de frutos mostrando vários frutos com orifício"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-004",
@@ -61,7 +198,62 @@
     "sint_avancado": "Lesões circulares maiores, centro pardo-acinzentado, queda de folhas, lesões em frutos, maturação irregular e perda de qualidade.",
     "confianca": 0.78,
     "manejo_prev": "Adubação equilibrada e sombreamento adequado.",
-    "manejo_corr": "Fungicida cúprico ou sistêmico registrado, conforme nível de infecção."
+    "manejo_corr": "Fungicida cúprico ou sistêmico registrado, conforme nível de infecção.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Lesão com centro claro (cinza-esbranquiçado) bem definido rodeado por halo amarelo nítido — padrão comumente descrito como \"olho de pássaro\".",
+        "Em mudas de viveiro costuma formar um padrão bastante característico conhecido como \"olho pardo\".",
+        "Em frutos causa mancha escura deprimida que pode levar à queda prematura ou à maturação irregular."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-001",
+          "semelhanca": "Ambas causam manchas foliares de origem fúngica visíveis a olho nu.",
+          "diferenca_principal": "A cercosporiose tem centro claro/acinzentado com halo amarelo e textura seca; a ferrugem tem pó alaranjado pulverulento na face inferior.",
+          "orgao_diferenciador": "Face inferior da folha",
+          "dificuldade": "baixa"
+        },
+        {
+          "problema_id": "CAF-016",
+          "semelhanca": "Ambas são doenças fúngicas foliares com lesões que começam pequenas e evoluem para necrose.",
+          "diferenca_principal": "A cercosporiose tem centro claro bem definido desde cedo; a mancha-manteigosa tem aspecto oleoso/translúcido inicial, sem centro necrótico definido.",
+          "orgao_diferenciador": "Folha (aspecto da lesão jovem)",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Pequena mancha parda, ainda sem centro claramente diferenciado.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "intermediario",
+          "aparencia": "Centro clareia formando o padrão de \"olho\", halo amarelo bem visível.",
+          "orgao": "Folha",
+          "intensidade": "moderada"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Lesões coalescem, folha amarelece e cai; frutos com manchas deprimidas.",
+          "orgao": "Folha e fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se a lesão tem centro esbranquiçado/acinzentado bem destacado.",
+        "Observar se ocorre em plantas com sombreamento excessivo ou sinais de deficiência nutricional (fator predisponente comum)."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha com lesão em close-up",
+        "Frutos com manchas, se houver"
+      ],
+      "confiabilidade_visual": "alta",
+      "diagnostico_exclusivamente_visual": "sim",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-005",
@@ -77,7 +269,62 @@
     "sint_avancado": "Necrose de ponteiros, queda de folhas, anelamento de ramos, seca de ramos produtivos, morte de brotações e danos em frutos.",
     "confianca": 0.55,
     "manejo_prev": "Proteção contra frio e ventos fortes; evitar ferimentos de poda em época fria.",
-    "manejo_corr": "Fungicida protetor aplicado antes de períodos frios ou chuvosos, conforme orientação técnica."
+    "manejo_corr": "Fungicida protetor aplicado antes de períodos frios ou chuvosos, conforme orientação técnica.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Costuma aparecer logo após eventos de frio, vento frio ou geada leve, atingindo primeiro os ponteiros e brotações mais expostas.",
+        "Lesões escuras progridem tipicamente da ponta do ramo para a base (queima descendente).",
+        "Pode causar anelamento do ramo jovem, levando à morte da extremidade além do ponto anelado."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-046",
+          "semelhanca": "Ambas costumam ocorrer após eventos de frio e causam queima/seca de ponteiros e ramos.",
+          "diferenca_principal": "A geada costuma causar dano abrupto e generalizado em toda a área exposta ao frio (padrão ligado à topografia); a phoma é mais localizada e progressiva, com lesões fúngicas visíveis.",
+          "orgao_diferenciador": "Padrão de distribuição na lavoura",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-021",
+          "semelhanca": "Ambas causam seca descendente de ramos.",
+          "diferenca_principal": "A fusariose forma cancros mais profundos, geralmente em ramos mais velhos ou no tronco; a phoma atinge preferencialmente tecidos jovens (brotos, folhas novas, ponteiros).",
+          "orgao_diferenciador": "Idade do tecido afetado (ramo jovem vs. ramo velho/tronco)",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Pequenas lesões escuras em brotos, pecíolos ou pontas de ramos.",
+          "orgao": "Broto/pecíolo",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "intermediario",
+          "aparencia": "Anelamento do ramo jovem, escurecimento avançando para a base.",
+          "orgao": "Ramo jovem",
+          "intensidade": "moderada"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Seca completa do ponteiro, morte de brotações e danos em frutos.",
+          "orgao": "Ramo e fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar histórico recente de frio, vento frio ou geada leve na região.",
+        "Examinar se há pequenos pontos escuros (frutificações do fungo) nas lesões mais antigas."
+      ],
+      "proxima_foto_recomendada": [
+        "Ramo inteiro mostrando a progressão da ponta para a base",
+        "Close-up da lesão no ramo"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-006",
@@ -93,7 +340,62 @@
     "sint_avancado": "Aborto e queda de frutos, deformação de rosetas, fumagina, enfraquecimento de ramos e redução da produção.",
     "confianca": 0.72,
     "manejo_prev": "Controle de formigas associadas e monitoramento periódico de rosetas.",
-    "manejo_corr": "Inseticida sistêmico ou controle biológico (predadores naturais), conforme nível de infestação."
+    "manejo_corr": "Inseticida sistêmico ou controle biológico (predadores naturais), conforme nível de infestação.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Massa branca cerosa/algodonosa concentra-se nas rosetas (base dos frutos) e pedúnculos, e não costuma se espalhar uniformemente pela folha.",
+        "Presença quase constante de formigas subindo e descendo o ramo, atraídas pelo mieleto.",
+        "Fumagina (fungo preto) se desenvolve sobre o mieleto excretado, escurecendo folhas e ramos próximos."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-031",
+          "semelhanca": "Mesma família de insetos (cochonilhas-farinhentas) com massa branca algodonosa muito parecida.",
+          "diferenca_principal": "A cochonilha-de-cauda apresenta dois filamentos caudais característicos, ausentes na cochonilha-da-roseta.",
+          "orgao_diferenciador": "Corpo do inseto (presença ou ausência de filamentos caudais)",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-012",
+          "semelhanca": "Ambas são cochonilhas que atacam ramos/frutos e atraem formigas.",
+          "diferenca_principal": "A cochonilha-verde é lisa, verde e sem massa algodonosa branca; a cochonilha-da-roseta forma massa branca cerosa.",
+          "orgao_diferenciador": "Aspecto do corpo do inseto",
+          "dificuldade": "baixa"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Pequenas colônias brancas concentradas nas rosetas.",
+          "orgao": "Roseta/pedúnculo",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "intermediario",
+          "aparencia": "Expansão da colônia para pedúnculos vizinhos, mieleto já visível.",
+          "orgao": "Ramo/pedúnculo",
+          "intensidade": "moderada"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Fumagina cobrindo folhas e ramos, frutos abortados e deformados.",
+          "orgao": "Ramo e folha",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Procurar filamentos caudais no corpo do inseto para descartar cochonilha-de-cauda.",
+        "Verificar trilha de formigas até o ninho/colônia."
+      ],
+      "proxima_foto_recomendada": [
+        "Close-up da roseta/pedúnculo",
+        "Ramo mostrando fumagina"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-007",
@@ -109,7 +411,42 @@
     "sint_avancado": "Murcha, desfolha, seca de ramos, morte de plantas e recuperação deficiente após recepa.",
     "confianca": 0.4,
     "manejo_prev": "Evitar estresse hídrico e ferimentos radiculares; monitoramento em áreas de histórico.",
-    "manejo_corr": "Inseticida de solo registrado, aplicado por profissional habilitado."
+    "manejo_corr": "Inseticida de solo registrado, aplicado por profissional habilitado.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Os sintomas na parte aérea (clorose, murcha, perda de vigor em reboleiras) são inespecíficos e muito parecidos com os de outros problemas radiculares — o diagnóstico só pela parte aérea tem baixa confiabilidade.",
+        "A evidência mais confiável é encontrar larvas volumosas esbranquiçadas/amareladas ao escavar a raiz."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-030",
+          "semelhanca": "Ambas causam reboleiras de plantas com baixo vigor, clorose e murcha, sem lesão foliar característica.",
+          "diferenca_principal": "A compactação/encharcamento mostra raízes superficiais e escurecidas sem larvas; o berne-das-raízes mostra larvas volumosas junto às raízes ao escavar.",
+          "orgao_diferenciador": "Raiz escavada",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-036",
+          "semelhanca": "Ambas são pragas radiculares que causam reboleiras de baixo vigor com sintomas aéreos indistinguíveis.",
+          "diferenca_principal": "Diferenciação exige escavar a raiz e comparar o inseto encontrado (larva de mosca vs. larva de besouro/coró).",
+          "orgao_diferenciador": "Raiz escavada",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [],
+      "evidencias_confirmacao": [
+        "Escavar a raiz de uma planta sintomática em busca de larvas.",
+        "Comparar o vigor da planta afetada com plantas vizinhas sadias."
+      ],
+      "proxima_foto_recomendada": [
+        "Sistema radicular exposto (raiz escavada)",
+        "Base do caule"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "nao",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-008",
@@ -125,7 +462,49 @@
     "sint_avancado": "Desfolha, seca de ponteiros, abortamento floral, frutos pequenos ou chochos, escaldadura e morte de plantas jovens.",
     "confianca": 0.6,
     "manejo_prev": "Irrigação suplementar, cobertura do solo (mulching) e sombreamento em regiões críticas.",
-    "manejo_corr": "Irrigação de emergência quando disponível; não há correção química aplicável."
+    "manejo_corr": "Irrigação de emergência quando disponível; não há correção química aplicável.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Os sintomas costumam afetar a lavoura de forma relativamente uniforme (não em reboleiras isoladas) e coincidem com período de estiagem/calor conhecido na região.",
+        "As folhas tendem a recuperar parte do turgor à noite ou logo após chuva/irrigação, diferente de um dano permanente.",
+        "Não há lesões, pontuações ou colônias de insetos visíveis associadas ao sintoma."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-050",
+          "semelhanca": "Ambas causam murcha e queima de bordas foliares sem lesão fúngica associada.",
+          "diferenca_principal": "Na salinização a planta murcha mesmo com o solo úmido; no déficit hídrico a murcha correlaciona diretamente com solo seco.",
+          "orgao_diferenciador": "Umidade do solo no momento do sintoma",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Murcha temporária e recuperável, enrolamento leve das folhas.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Desfolha, seca de ponteiros, abortamento floral e frutos chochos.",
+          "orgao": "Planta inteira",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar a umidade do solo no momento da foto.",
+        "Checar se a murcha se recupera no período mais fresco do dia ou após irrigação/chuva."
+      ],
+      "proxima_foto_recomendada": [
+        "Solo ao redor da planta",
+        "Ramo inteiro em diferentes horários do dia, se possível"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-009",
@@ -141,7 +520,62 @@
     "sint_avancado": "Necrose marginal, folhas com aspecto queimado, queda foliar, seca de ponteiros, frutos pequenos e pior enchimento.",
     "confianca": 0.58,
     "manejo_prev": "Adubação potássica balanceada conforme análise de solo.",
-    "manejo_corr": "Reposição de potássio conforme recomendação de análise foliar/solo."
+    "manejo_corr": "Reposição de potássio conforme recomendação de análise foliar/solo.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Clorose e depois necrose concentram-se na margem e na ponta das folhas mais velhas (baixeiro), com a região central e as nervuras permanecendo verdes por mais tempo.",
+        "Aspecto de \"folha queimada\" na borda, avançando tipicamente da ponta para a base da folha.",
+        "O sintoma raramente aparece com destaque nas folhas novas do ponteiro."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-041",
+          "semelhanca": "Ambas causam sintomas visuais nas bordas/pontas de folhas.",
+          "diferenca_principal": "A deficiência de potássio afeta folhas velhas; a deficiência de cálcio afeta principalmente folhas novas e gemas apicais.",
+          "orgao_diferenciador": "Idade da folha afetada (velha vs. nova)",
+          "dificuldade": "media"
+        },
+        {
+          "problema_id": "CAF-050",
+          "semelhanca": "Ambas causam queima de margem foliar.",
+          "diferenca_principal": "A salinização atinge folhas de diversas idades e a planta murcha mesmo irrigada; a deficiência de potássio concentra-se em folhas velhas, sem murcha associada.",
+          "orgao_diferenciador": "Idade da folha e presença de murcha",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Amarelecimento leve na ponta da folha velha, nervuras ainda verdes.",
+          "orgao": "Folha velha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "intermediario",
+          "aparencia": "Necrose marginal avançando da ponta para a base da folha.",
+          "orgao": "Folha velha",
+          "intensidade": "moderada"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Folha totalmente queimada nas bordas, queda foliar e frutos com pior enchimento.",
+          "orgao": "Folha e fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Confirmar que o sintoma está concentrado em folhas mais velhas, na base dos ramos.",
+        "Análise foliar ou de solo para confirmar o nível de potássio."
+      ],
+      "proxima_foto_recomendada": [
+        "Ramo inteiro mostrando folhas velhas e novas lado a lado",
+        "Folha isolada em close-up da margem"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-010",
@@ -157,7 +591,42 @@
     "sint_avancado": "Galhas radiculares, necrose, queda de folhas, seca de ramos, baixa resposta à adubação e morte de plantas em focos severos.",
     "confianca": 0.35,
     "manejo_prev": "Uso de mudas certificadas, rotação de área ou pousio, cultivares tolerantes.",
-    "manejo_corr": "Nematicida registrado ou manejo biológico, conforme diagnóstico laboratorial."
+    "manejo_corr": "Nematicida registrado ou manejo biológico, conforme diagnóstico laboratorial.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Os sintomas na parte aérea (clorose, baixo vigor, murcha nas horas mais quentes) são inespecíficos, sem lesão foliar característica.",
+        "O diagnóstico visual confiável depende de examinar galhas (engrossamentos nodulares) nas raízes finas."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-032",
+          "semelhanca": "Ambas causam estruturas nodulares/engrossadas nas raízes que podem ser confundidas a olho nu.",
+          "diferenca_principal": "As galhas de nematoide são mais uniformes e internas ao tecido radicular; as \"pipocas\" da cochonilha-da-raiz costumam abrigar o inseto visível ao cortar a estrutura.",
+          "orgao_diferenciador": "Raiz cortada",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-017",
+          "semelhanca": "Ambas são problemas radiculares que causam baixo vigor e reboleiras.",
+          "diferenca_principal": "A roseliniose mostra podridão escura e micélio na raiz; o nematoide mostra galhas sem podridão generalizada.",
+          "orgao_diferenciador": "Raiz escavada",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [],
+      "evidencias_confirmacao": [
+        "Escavar raízes finas e procurar galhas (engrossamentos nodulares).",
+        "Enviar amostra de raiz e solo para análise nematológica laboratorial."
+      ],
+      "proxima_foto_recomendada": [
+        "Raízes finas escavadas com cuidado",
+        "Close-up de galhas radiculares"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "nao",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-011",
@@ -173,7 +642,36 @@
     "sint_avancado": "Seca de ramos, desfolha, baixa produção e morte de plantas após sucessivos ciclos.",
     "confianca": 0.45,
     "manejo_prev": "Monitoramento de ninfas no solo e manejo da cobertura vegetal.",
-    "manejo_corr": "Inseticida de solo registrado, aplicado na época de emergência das ninfas."
+    "manejo_corr": "Inseticida de solo registrado, aplicado na época de emergência das ninfas.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Os sintomas aéreos são inespecíficos e muito parecidos com outros problemas radiculares.",
+        "A evidência mais confiável é encontrar ninfas no solo ao redor da raiz ou exúvias (cascas) de ninfas presas ao tronco/solo após a emergência dos adultos.",
+        "A presença de adultos (cigarras) cantando na lavoura em certas épocas do ano é um indício indireto, mas não uma confirmação visual direta do dano."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-007",
+          "semelhanca": "Ambas são pragas radiculares com sintomas aéreos indistinguíveis entre si.",
+          "diferenca_principal": "A diferenciação exige escavar a raiz e identificar o inseto encontrado (ninfa de cigarra vs. larva de mosca).",
+          "orgao_diferenciador": "Raiz escavada",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [],
+      "evidencias_confirmacao": [
+        "Procurar exúvias de ninfa na base do tronco ou no solo ao redor.",
+        "Escavar ao redor da raiz para localizar ninfas."
+      ],
+      "proxima_foto_recomendada": [
+        "Base do tronco e solo ao redor",
+        "Raízes escavadas"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "nao",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-012",
@@ -189,7 +687,49 @@
     "sint_avancado": "Fumagina, amarelecimento, redução do vigor e secamento de brotos em ataques intensos.",
     "confianca": 0.68,
     "manejo_prev": "Controle de formigas associadas e preservação de inimigos naturais.",
-    "manejo_corr": "Inseticida sistêmico registrado, conforme nível de infestação."
+    "manejo_corr": "Inseticida sistêmico registrado, conforme nível de infestação.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Corpo do inseto verde-claro, oval, achatado e liso — sem a massa algodonosa branca típica das cochonilhas-farinhentas.",
+        "Fixam-se principalmente ao longo da nervura central no verso da folha e em brotos tenros.",
+        "Mieleto abundante atrai formigas e favorece o desenvolvimento de fumagina."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-006",
+          "semelhanca": "Ambas são cochonilhas comuns em cafeeiro, associadas a formigas e mieleto.",
+          "diferenca_principal": "A cochonilha-verde não forma massa branca algodonosa; a cochonilha-da-roseta forma massa cerosa branca concentrada nas rosetas.",
+          "orgao_diferenciador": "Aspecto do corpo do inseto",
+          "dificuldade": "baixa"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Poucas cochonilhas visíveis ao longo da nervura central.",
+          "orgao": "Folha (nervura)",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Fumagina generalizada, amarelecimento e secamento de brotos.",
+          "orgao": "Folha e broto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Observar o verso da folha ao longo da nervura central.",
+        "Verificar presença de formigas subindo o ramo."
+      ],
+      "proxima_foto_recomendada": [
+        "Verso da folha em close-up",
+        "Ramo com fumagina"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-013",
@@ -205,7 +745,55 @@
     "sint_avancado": "Bronzeamento generalizado, secamento, queda de folhas e redução da fotossíntese.",
     "confianca": 0.66,
     "manejo_prev": "Evitar estresse hídrico prolongado; monitoramento em época seca.",
-    "manejo_corr": "Acaricida registrado, conforme nível de infestação."
+    "manejo_corr": "Acaricida registrado, conforme nível de infestação.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Pontilhado fino e denso na face superior da folha, dando aspecto de poeira antes de evoluir para bronzeamento uniforme.",
+        "Ao sacudir o ramo sobre um papel branco, caem pontos avermelhados móveis (os ácaros).",
+        "Ocorre tipicamente em época seca e em lavouras empoeiradas ou com estresse hídrico."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-033",
+          "semelhanca": "Ambos são ácaros que atacam o cafeeiro e podem causar bronzeamento.",
+          "diferenca_principal": "O ácaro-vermelho ataca folhas maduras causando pontilhado e bronzeamento; o ácaro-branco ataca folhas novas e brotos, causando enrugamento e deformação.",
+          "orgao_diferenciador": "Idade da folha atacada (madura vs. nova)",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Pontilhado leve na face superior da folha.",
+          "orgao": "Folha (face superior)",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "intermediario",
+          "aparencia": "Bronzeamento parcial, perda de brilho progressiva.",
+          "orgao": "Folha",
+          "intensidade": "moderada"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Bronzeamento generalizado, secamento e queda de folhas.",
+          "orgao": "Folha",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Sacudir o ramo sobre papel branco para verificar queda de ácaros.",
+        "Examinar com lupa de bolso o pontilhado na face superior da folha."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha em macro/close-up extremo da face superior",
+        "Foto do teste do papel branco"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-014",
@@ -221,7 +809,62 @@
     "sint_avancado": "Lesões necróticas com halo amarelado, queda de folhas, seca de ponteiros e morte de brotos.",
     "confianca": 0.42,
     "manejo_prev": "Evitar ferimentos mecânicos, adubação equilibrada e proteção contra frio.",
-    "manejo_corr": "Bactericida cúprico registrado e poda dos ramos afetados."
+    "manejo_corr": "Bactericida cúprico registrado e poda dos ramos afetados.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Lesões iniciais parecem encharcadas (\"water-soaked\"), quase translúcidas quando vistas contra a luz — diferente do aspecto seco típico de lesões fúngicas.",
+        "Costuma surgir após período de frio combinado com chuva ou geada leve.",
+        "Halo amarelo bem definido ao redor da lesão necrótica, podendo causar queima e morte abrupta de brotos jovens."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-004",
+          "semelhanca": "Ambas causam manchas foliares com halo amarelo, frequentemente após condições de frio/umidade.",
+          "diferenca_principal": "A lesão bacteriana é encharcada/translúcida na fase inicial; a cercosporiose tem textura seca desde o começo, com centro claramente esbranquiçado.",
+          "orgao_diferenciador": "Aspecto da lesão jovem contra a luz",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-046",
+          "semelhanca": "Ambas estão associadas a eventos recentes de frio e podem causar queima de ponteiros.",
+          "diferenca_principal": "A geada causa dano abrupto e generalizado por toda a área exposta ao frio; a mancha aureolada causa lesões localizadas, com halo amarelo bem definido.",
+          "orgao_diferenciador": "Padrão de distribuição na lavoura",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Lesão encharcada e translúcida, visível principalmente contra a luz.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "intermediario",
+          "aparencia": "Necrose da lesão com halo amarelo bem definido.",
+          "orgao": "Folha",
+          "intensidade": "moderada"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Queima de ponteiro e morte de brotos jovens.",
+          "orgao": "Broto/ramo",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se a lesão jovem parece encharcada/oleosa quando observada contra a luz.",
+        "Checar histórico recente de frio ou geada leve na propriedade."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha contra a luz mostrando encharcamento",
+        "Ramo com broto queimado"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-015",
@@ -237,7 +880,48 @@
     "sint_avancado": "Anéis concêntricos, manchas necróticas, queda foliar, desfolha de ramos e manchas em frutos.",
     "confianca": 0.38,
     "manejo_prev": "Controle do ácaro vetor (Brevipalpus) e eliminação de plantas gravemente afetadas.",
-    "manejo_corr": "Não há cura direta; o manejo foca no controle do vetor com acaricida registrado."
+    "manejo_corr": "Não há cura direta; o manejo foca no controle do vetor com acaricida registrado.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Manchas ou anéis cloróticos concêntricos, geralmente múltiplos por folha, com padrão de contorno bem circular.",
+        "Esta doença é considerada quase indistinguível visualmente de CAF-037 (Leprose) — a distinção confiável exige análise laboratorial."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-037",
+          "semelhanca": "Praticamente idênticas visualmente: ambas causam lesões cloróticas circulares com halo, transmitidas pelo mesmo gênero de ácaro (Brevipalpus).",
+          "diferenca_principal": "Não há característica de campo totalmente confiável; o coffee ringspot tende a manchas em anel mais definidas, enquanto a leprose evolui para necrose de coloração \"canela\", mas há sobreposição significativa entre os dois quadros.",
+          "orgao_diferenciador": "Nenhum órgão isolado permite diferenciação segura a olho nu",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Pequenos pontos ou anéis cloróticos isolados.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Anéis concêntricos bem definidos, manchas necróticas e queda foliar.",
+          "orgao": "Folha, fruto e ramo",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar presença do ácaro vetor Brevipalpus na folha, com auxílio de lupa.",
+        "Recomenda-se diagnóstico molecular/laboratorial, já que nenhuma característica de campo distingue com segurança de leprose."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha com padrão de anéis em close-up",
+        "Fruto afetado, se houver"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "nao",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-016",
@@ -253,7 +937,55 @@
     "sint_avancado": "Lesões necróticas, queda de folhas, seca de ramos, danos em frutos e redução do vigor.",
     "confianca": 0.5,
     "manejo_prev": "Arejamento da lavoura e adubação equilibrada.",
-    "manejo_corr": "Fungicida registrado, conforme nível de infecção."
+    "manejo_corr": "Fungicida registrado, conforme nível de infecção.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Lesão inicial tem aspecto translúcido e \"oleoso\" (como se a folha estivesse encharcada de óleo), diferente do aspecto seco/pulverulento de outras doenças foliares.",
+        "Costuma evoluir rapidamente em condições de alta umidade e sombreamento."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-004",
+          "semelhanca": "Ambas causam manchas foliares fúngicas que evoluem para necrose.",
+          "diferenca_principal": "A cercosporiose tem centro claro bem definido tipo \"olho\" desde cedo; a mancha-manteigosa tem aspecto oleoso/translúcido sem centro necrótico definido inicialmente.",
+          "orgao_diferenciador": "Folha (aspecto da lesão jovem)",
+          "dificuldade": "media"
+        },
+        {
+          "problema_id": "CAF-022",
+          "semelhanca": "Fungos do mesmo complexo (Colletotrichum), com sobreposição de sintomas em folhas, ramos e frutos.",
+          "diferenca_principal": "A antracnose afeta predominantemente frutos, flores e ramos com necrose seca; a mancha-manteigosa é predominantemente foliar, com aspecto oleoso inicial.",
+          "orgao_diferenciador": "Órgão predominantemente afetado (fruto/flor vs. folha)",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Mancha translúcida e oleosa, verde-clara.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Necrose seca da lesão, queda de folhas e danos em ramos e frutos.",
+          "orgao": "Folha, ramo e fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar o aspecto oleoso/encharcado da lesão jovem contra a luz.",
+        "Checar o nível de umidade e sombreamento da lavoura."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha contra a luz",
+        "Ramo com frutos, se afetados"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-017",
@@ -269,7 +1001,56 @@
     "sint_avancado": "Podridão escura das raízes, seca de ramos, desfolha e morte de plantas em reboleiras.",
     "confianca": 0.32,
     "manejo_prev": "Eliminação de tocos e restos lenhosos no solo; drenagem adequada.",
-    "manejo_corr": "Erradicação de plantas afetadas e tratamento de solo por profissional habilitado."
+    "manejo_corr": "Erradicação de plantas afetadas e tratamento de solo por profissional habilitado.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Ao escavar a raiz, observa-se micélio branco-acinzentado aderido à superfície, que enegrece com o tempo.",
+        "Pode-se encontrar rizomorfas (cordões escuros semelhantes a fios) na raiz ou no solo ao redor.",
+        "Frequentemente associado a tocos ou restos de madeira em decomposição próximos à planta afetada."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-039",
+          "semelhanca": "Ambas são podridões de origem fúngica que afetam raiz/colo e causam murcha e morte da planta.",
+          "diferenca_principal": "A gomose apresenta exsudação de goma no colo; a roseliniose apresenta micélio branco-acinzentado na raiz e associação com madeira em decomposição.",
+          "orgao_diferenciador": "Colo (gomose) vs. raiz (roseliniose)",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-010",
+          "semelhanca": "Ambas causam baixo vigor e reboleiras de plantas debilitadas.",
+          "diferenca_principal": "A roseliniose mostra podridão escura e micélio na raiz; o nematoide mostra galhas nodulares sem podridão generalizada do tecido.",
+          "orgao_diferenciador": "Raiz escavada",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Amarelecimento e murcha parcial, redução do crescimento — sintoma aéreo pouco específico.",
+          "orgao": "Planta inteira",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Podridão escura das raízes, desfolha e morte de plantas em reboleiras.",
+          "orgao": "Raiz",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Escavar a raiz e procurar micélio branco-acinzentado ou rizomorfas escuras.",
+        "Verificar presença de tocos ou madeira em decomposição próximos."
+      ],
+      "proxima_foto_recomendada": [
+        "Raiz escavada mostrando o micélio",
+        "Solo ao redor da base do tronco"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-018",
@@ -285,7 +1066,48 @@
     "sint_avancado": "Anelamento do colo, murcha, amarelecimento, seca e morte de mudas ou plantas jovens.",
     "confianca": 0.36,
     "manejo_prev": "Substrato bem drenado em viveiro e uso de mudas sadias.",
-    "manejo_corr": "Fungicida de solo registrado; descarte de mudas afetadas."
+    "manejo_corr": "Fungicida de solo registrado; descarte de mudas afetadas.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Lesões pardas deprimidas e alongadas no colo da muda, muitas vezes causando estrangulamento visível do caulículo (\"cancro do colo\").",
+        "Ocorre predominantemente em viveiro ou em mudas recém-plantadas, sendo raro em plantas adultas já estabelecidas."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-039",
+          "semelhanca": "Ambas afetam o colo da planta com lesão/podridão que pode levar à morte.",
+          "diferenca_principal": "A rizoctoniose é típica de mudas e viveiro; a gomose é típica de plantas adultas, com exsudação de goma característica.",
+          "orgao_diferenciador": "Estágio da planta (muda vs. planta adulta)",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Falhas de pegamento e lesões pardas iniciais no colo.",
+          "orgao": "Colo da muda",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Anelamento do colo, tombamento e morte da muda.",
+          "orgao": "Colo/raiz",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se a planta afetada é muda jovem ou recém-plantada.",
+        "Observar anelamento/estrangulamento visível no colo."
+      ],
+      "proxima_foto_recomendada": [
+        "Base da muda (colo) em close-up",
+        "Bandeja ou canteiro completo mostrando padrão de falhas"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-019",
@@ -301,7 +1123,55 @@
     "sint_avancado": "Amarelecimento intenso, manchas necróticas, queda de folhas e redução do crescimento.",
     "confianca": 0.55,
     "manejo_prev": "Adubação equilibrada entre potássio, cálcio e magnésio, conforme análise de solo.",
-    "manejo_corr": "Reposição de magnésio conforme recomendação técnica."
+    "manejo_corr": "Reposição de magnésio conforme recomendação técnica.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Clorose internerval clássica em folhas velhas, com nervuras permanecendo bem verdes, formando padrão semelhante a uma \"espinha de peixe\".",
+        "Costuma aparecer em solos com adubação potássica excessiva (desequilíbrio K/Mg), mesmo quando o magnésio total do solo não é tão baixo."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-043",
+          "semelhanca": "Ambas causam clorose internerval que pode ser confundida à primeira vista.",
+          "diferenca_principal": "A deficiência de magnésio afeta folhas velhas; a de manganês afeta preferencialmente folhas novas (2º e 3º pares terminais).",
+          "orgao_diferenciador": "Idade da folha afetada (velha vs. nova)",
+          "dificuldade": "media"
+        },
+        {
+          "problema_id": "CAF-042",
+          "semelhanca": "Ambas causam clorose generalizada da folhagem.",
+          "diferenca_principal": "A deficiência de magnésio concentra-se em folhas velhas com padrão internerval definido; a de enxofre inicia em folhas novas com clorose mais uniforme.",
+          "orgao_diferenciador": "Idade da folha afetada (velha vs. nova)",
+          "dificuldade": "baixa"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Clorose internerval leve em folhas mais velhas.",
+          "orgao": "Folha velha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Amarelecimento intenso, manchas necróticas e queda de folhas.",
+          "orgao": "Folha velha",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Confirmar que a clorose está concentrada em folhas velhas, não nas novas — critério mais discriminante.",
+        "Análise foliar para confirmar a relação K/Mg no tecido."
+      ],
+      "proxima_foto_recomendada": [
+        "Ramo inteiro mostrando diferença entre folhas novas e velhas",
+        "Folha isolada em close-up"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-020",
@@ -317,7 +1187,49 @@
     "sint_avancado": "Necrose de bordas e ponteiros, queda foliar, morte de brotos e redução da produção.",
     "confianca": 0.62,
     "manejo_prev": "Uso correto de equipamentos, distância de segurança na aplicação e condições climáticas adequadas.",
-    "manejo_corr": "Suspender a exposição; recuperação é gradual e natural, sem produto corretivo específico."
+    "manejo_corr": "Suspender a exposição; recuperação é gradual e natural, sem produto corretivo específico.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Sintomas costumam aparecer de forma relativamente abrupta após uma aplicação ou deriva de herbicida conhecida.",
+        "Frequentemente há padrão direcional — dano mais intenso do lado da lavoura mais próximo à área tratada ou na direção do vento.",
+        "Deformação foliar característica (encarquilhamento, afilamento), distinta das lesões necróticas circulares típicas de doenças fúngicas."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-027",
+          "semelhanca": "Ambas causam deformação de folhas novas e paralisação de gemas apicais.",
+          "diferenca_principal": "A fitotoxicidade tem início abrupto correlacionado a um evento de aplicação/deriva conhecido; a deficiência de boro é mais gradual e associada a solo pobre no nutriente.",
+          "orgao_diferenciador": "Histórico de aplicação recente vs. padrão de solo",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Clorose e leve murcha nas folhas mais expostas.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Deformação acentuada de folhas e morte de brotos.",
+          "orgao": "Folha e broto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se houve aplicação de herbicida recente na propriedade ou em área vizinha.",
+        "Checar se há padrão direcional do dano (mais forte de um lado da lavoura)."
+      ],
+      "proxima_foto_recomendada": [
+        "Vista panorâmica da lavoura mostrando o padrão direcional",
+        "Folha deformada em close-up"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-021",
@@ -333,7 +1245,62 @@
     "sint_avancado": "Cancros, rachaduras, seca descendente, desfolha e morte de plantas ou setores da lavoura.",
     "confianca": 0.3,
     "manejo_prev": "Evitar ferimentos de poda em época úmida; desinfecção de ferramentas entre plantas.",
-    "manejo_corr": "Poda e eliminação de ramos afetados; fungicida sistêmico conforme orientação técnica."
+    "manejo_corr": "Poda e eliminação de ramos afetados; fungicida sistêmico conforme orientação técnica.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Os cancros formam depressões alongadas na casca do ramo/caule, muitas vezes com rachaduras e exsudação de goma ou resina.",
+        "Ao raspar a casca do cancro, o tecido interno mostra descoloração — frequentemente avermelhada ou alaranjada — que se estende além da lesão externa visível.",
+        "A seca avança de forma descendente a partir do ponto do cancro, e não a partir da ponta do ramo como em outras causas de seca de ponteiro."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-039",
+          "semelhanca": "Ambas envolvem podridão/necrose na região do colo ou caule, às vezes com exsudação.",
+          "diferenca_principal": "A fusariose forma cancros ao longo do ramo/caule com descoloração interna alaranjada; a gomose concentra-se no colo com exsudação de goma característica e sem cancros ao longo do ramo.",
+          "orgao_diferenciador": "Localização do dano (ramo/caule vs. colo)",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-005",
+          "semelhanca": "Ambas causam seca descendente de ramos.",
+          "diferenca_principal": "A fusariose forma cancros mais profundos, geralmente em ramos mais velhos ou no tronco; a phoma atinge preferencialmente tecidos jovens (brotos, folhas novas, ponteiros).",
+          "orgao_diferenciador": "Idade do tecido afetado (ramo jovem vs. ramo velho/tronco)",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Pequenas lesões descoloridas no ramo, amarelecimento e murcha parcial.",
+          "orgao": "Ramo",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "intermediario",
+          "aparencia": "Cancro bem formado, com rachadura visível na casca.",
+          "orgao": "Ramo/caule",
+          "intensidade": "moderada"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Seca descendente, desfolha e morte de setores da lavoura.",
+          "orgao": "Ramo, caule e raiz",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Raspar a casca da lesão para verificar a descoloração interna do lenho.",
+        "Verificar se a seca progride a partir do cancro, e não a partir da ponta do ramo."
+      ],
+      "proxima_foto_recomendada": [
+        "Ramo com casca raspada mostrando o lenho interno",
+        "Caule/colo da planta"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-022",
@@ -349,7 +1316,56 @@
     "sint_avancado": "Seca de ramos, queda de flores, frutos mumificados, lesões deprimidas e perda de frutos.",
     "confianca": 0.48,
     "manejo_prev": "Arejamento da lavoura e manejo de restos culturais.",
-    "manejo_corr": "Fungicida registrado, conforme nível de infecção."
+    "manejo_corr": "Fungicida registrado, conforme nível de infecção.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Lesões em frutos são deprimidas e escuras, muitas vezes com pequenas pontuações escuras (acérvulos) visíveis no centro em condições de alta umidade.",
+        "Ataca preferencialmente órgãos reprodutivos — flores e frutos jovens —, diferente de doenças predominantemente foliares.",
+        "Frutos afetados podem mumificar e permanecer presos ao ramo em vez de cair."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-016",
+          "semelhanca": "Fungos do mesmo complexo (Colletotrichum), com sobreposição de sintomas em folhas, ramos e frutos.",
+          "diferenca_principal": "A antracnose afeta predominantemente frutos, flores e ramos com necrose seca; a mancha-manteigosa é predominantemente foliar, com aspecto oleoso inicial.",
+          "orgao_diferenciador": "Órgão predominantemente afetado (fruto/flor vs. folha)",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-053",
+          "semelhanca": "Ambas atacam flores e frutos, causando podridão e mumificação em condições de alta umidade.",
+          "diferenca_principal": "A antracnose forma lesões deprimidas escuras com pontuações (acérvulos); o mofo-cinzento forma massa micelial acinzentada e felpuda sobre o tecido afetado.",
+          "orgao_diferenciador": "Textura da lesão (seca/pontuada vs. felpuda acinzentada)",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Pequenas lesões escuras em flor ou fruto jovem.",
+          "orgao": "Flor/fruto jovem",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Fruto mumificado preso ao ramo, seca de ramo associada.",
+          "orgao": "Fruto e ramo",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar presença de pontuações escuras (acérvulos) no centro da lesão em condições úmidas.",
+        "Checar se o dano se concentra em flores e frutos jovens."
+      ],
+      "proxima_foto_recomendada": [
+        "Fruto ou flor afetado em close-up",
+        "Ramo com frutos mumificados"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-023",
@@ -365,7 +1381,41 @@
     "sint_avancado": "Folhas secas pendentes, queda foliar, morte de ponteiros e frutos secos retidos nos ramos.",
     "confianca": 0.64,
     "manejo_prev": "Arejamento da lavoura e redução de sombreamento excessivo.",
-    "manejo_corr": "Fungicida cúprico registrado e poda dos ramos afetados."
+    "manejo_corr": "Fungicida cúprico registrado e poda dos ramos afetados.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Fios ou cordões miceliais brancos/claros esticados entre ramos, pecíolos e folhas são visíveis a olho nu — característica praticamente exclusiva desta doença.",
+        "Folhas mortas ficam presas ao ramo por esses filamentos, penduradas em vez de caírem no chão.",
+        "Ocorre tipicamente nas áreas mais sombreadas e úmidas da lavoura."
+      ],
+      "diagnostico_diferencial": [],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Fio micelial fino sobre poucos ramos e pecíolos.",
+          "orgao": "Ramo/pecíolo",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Folhas secas penduradas, morte de ponteiros, frutos secos retidos.",
+          "orgao": "Ramo e folha",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Procurar os fios/cordões miceliais esticados entre ramos e folhas.",
+        "Verificar se as folhas mortas permanecem presas ao ramo, penduradas."
+      ],
+      "proxima_foto_recomendada": [
+        "Ramo em close-up mostrando os fios miceliais",
+        "Folhas secas penduradas no ramo"
+      ],
+      "confiabilidade_visual": "alta",
+      "diagnostico_exclusivamente_visual": "sim",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-024",
@@ -381,7 +1431,49 @@
     "sint_avancado": "Galerias internas, quebra de ramos, seca descendente e morte de hastes produtivas.",
     "confianca": 0.34,
     "manejo_prev": "Eliminação de ramos infestados e monitoramento em lavouras de conilon.",
-    "manejo_corr": "Inseticida sistêmico registrado, conforme nível de infestação."
+    "manejo_corr": "Inseticida sistêmico registrado, conforme nível de infestação.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Pequenos orifícios circulares no ramo/haste geralmente acompanhados de serragem fina esbranquiçada aderida à casca ao redor da entrada.",
+        "Murcha do ponteiro além do ponto de ataque, mesmo com o restante da planta aparentemente saudável.",
+        "Ao cortar o ramo, as galerias internas seguem no sentido do eixo do ramo."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-003",
+          "semelhanca": "Ambas são causadas por besouros escolitídeos que perfuram tecido vegetal e deixam pequenos orifícios.",
+          "diferenca_principal": "A broca-da-haste ataca ramos e hastes, geralmente com serragem visível na entrada da galeria; a broca-do-café ataca o fruto.",
+          "orgao_diferenciador": "Ramo/haste (broca-da-haste) vs. fruto (broca-do-café)",
+          "dificuldade": "baixa"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Pequeno orifício com serragem fina ao redor.",
+          "orgao": "Ramo/haste",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Galeria interna extensa, quebra do ramo, morte de haste produtiva.",
+          "orgao": "Ramo/haste",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar a presença de serragem fina ao redor do orifício.",
+        "Cortar o ramo para confirmar a galeria interna."
+      ],
+      "proxima_foto_recomendada": [
+        "Ramo com orifício em close-up",
+        "Ramo cortado longitudinalmente"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-025",
@@ -397,7 +1489,49 @@
     "sint_avancado": "Danos em frutos, queda de chumbinhos, rosetas com resíduos e perda de qualidade.",
     "confianca": 0.52,
     "manejo_prev": "Monitoramento de rosetas e preservação de inimigos naturais.",
-    "manejo_corr": "Inseticida seletivo registrado, conforme nível de infestação."
+    "manejo_corr": "Inseticida seletivo registrado, conforme nível de infestação.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Fios de seda unindo frutos vizinhos dentro da roseta, formando uma espécie de pequeno \"ninho\".",
+        "Excrementos escuros granulados visíveis entre os frutos unidos pela teia.",
+        "Superfície do fruto raspada/roída externamente, diferente do orifício perfurante e interno da broca-do-café."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-003",
+          "semelhanca": "Ambas causam dano visível em frutos jovens do cafeeiro.",
+          "diferenca_principal": "A broca faz um orifício único, perfurante, com galeria interna; a lagarta-da-roseta raspa a superfície externa do fruto e une frutos vizinhos com teia.",
+          "orgao_diferenciador": "Fruto (dano interno vs. superficial)",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Poucos fios de seda e leve raspagem na superfície do fruto.",
+          "orgao": "Fruto/roseta",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Frutos unidos pela teia, queda de chumbinhos, perda de qualidade.",
+          "orgao": "Roseta de frutos",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar presença de fios de seda unindo frutos vizinhos.",
+        "Procurar excrementos granulados entre os frutos da roseta."
+      ],
+      "proxima_foto_recomendada": [
+        "Roseta de frutos em close-up",
+        "Frutos individuais mostrando a raspagem superficial"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-026",
@@ -413,7 +1547,49 @@
     "sint_avancado": "Folhas encarquilhadas, brotos deformados, flores abortadas e cicatrizes nos frutos.",
     "confianca": 0.6,
     "manejo_prev": "Monitoramento em época seca e preservação de inimigos naturais.",
-    "manejo_corr": "Inseticida registrado, conforme nível de infestação."
+    "manejo_corr": "Inseticida registrado, conforme nível de infestação.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Prateamento/bronzeamento fino na face inferior de folhas novas, com pequenos pontos escuros de excrementos espalhados sobre a área prateada.",
+        "Cicatrizes anelares esbranquiçadas na casca de frutos jovens, formadas pela raspagem ainda na fase de chumbinho.",
+        "Deformação e encarquilhamento concentram-se nos brotos e folhas mais novas, poupando as folhas maduras."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-033",
+          "semelhanca": "Ambos atacam folhas novas causando bronzeamento e deformação, podendo ser confundidos a olho nu.",
+          "diferenca_principal": "O tripes deixa pontuações escuras de excrementos visíveis junto ao prateamento; o ácaro-branco causa bronzeamento mais uniforme, sem pontuações fecais visíveis sem lupa.",
+          "orgao_diferenciador": "Face inferior da folha nova (presença ou ausência de pontuações fecais)",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Prateamento leve em folhas novas.",
+          "orgao": "Folha nova",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Encarquilhamento, deformação de brotos e cicatrizes em frutos.",
+          "orgao": "Folha nova, broto e fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Examinar com lupa a face inferior da folha nova em busca de pontuações escuras de excrementos.",
+        "Verificar cicatrizes anelares em frutos jovens."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha nova em macro (face inferior)",
+        "Fruto jovem com cicatriz"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-027",
@@ -429,7 +1605,56 @@
     "sint_avancado": "Superbrotamento, ramos curtos, frutos deformados, queda de flores e redução do sistema radicular.",
     "confianca": 0.57,
     "manejo_prev": "Adubação com boro conforme análise de solo, especialmente em solos arenosos.",
-    "manejo_corr": "Reposição foliar ou via solo, conforme recomendação técnica."
+    "manejo_corr": "Reposição foliar ou via solo, conforme recomendação técnica.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Morte da gema apical seguida de brotação lateral excessiva em leque (\"superbrotamento\"/roseta), dando à planta aparência de arbusto denso e bifurcado.",
+        "Internódios visivelmente encurtados nos ramos novos.",
+        "Frutos podem ficar assimétricos ou com formato irregular."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-020",
+          "semelhanca": "Ambas causam deformação de folhas novas e paralisação de gemas apicais.",
+          "diferenca_principal": "A deficiência de boro é mais gradual e associada a solo pobre no nutriente; a fitotoxicidade tem início abrupto correlacionado a um evento de aplicação/deriva de herbicida conhecido.",
+          "orgao_diferenciador": "Histórico de aplicação recente vs. padrão de solo",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-028",
+          "semelhanca": "Ambas causam rosetamento e encurtamento de internódios em brotações novas.",
+          "diferenca_principal": "A deficiência de boro causa morte da gema apical seguida de brotação lateral; a de zinco causa folhas pequenas/estreitas sem necessariamente matar a gema apical.",
+          "orgao_diferenciador": "Gema apical (morta vs. viva)",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Internódios curtos, folha nova levemente deformada.",
+          "orgao": "Ramo novo",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Superbrotamento em roseta, morte de gema apical, frutos deformados.",
+          "orgao": "Ramo, broto e fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar o padrão de brotação em leque/roseta após a morte da gema apical.",
+        "Observar se o sintoma é gradual, ao longo de semanas, sem evento de aplicação recente associado."
+      ],
+      "proxima_foto_recomendada": [
+        "Ponteiro do ramo mostrando o padrão de superbrotamento",
+        "Planta inteira, se o sintoma for generalizado"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-028",
@@ -445,7 +1670,48 @@
     "sint_avancado": "Encurtamento de internódios, rosetamento, folhas deformadas, baixo crescimento e redução de produção.",
     "confianca": 0.53,
     "manejo_prev": "Adubação com zinco conforme análise de solo, atenção a solos com pH elevado.",
-    "manejo_corr": "Reposição foliar ou via solo, conforme recomendação técnica."
+    "manejo_corr": "Reposição foliar ou via solo, conforme recomendação técnica.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Folhas novas nitidamente menores e mais estreitas que o normal, com aspecto lanceolado, concentradas nas pontas dos ramos.",
+        "Internódios encurtados dão às brotações um aspecto de roseta compacta, semelhante ao efeito do boro, mas sem morte da gema apical."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-027",
+          "semelhanca": "Ambas causam rosetamento e encurtamento de internódios em brotações novas.",
+          "diferenca_principal": "A deficiência de zinco causa folhas pequenas/estreitas sem necessariamente matar a gema apical; a de boro causa morte da gema apical seguida de brotação lateral.",
+          "orgao_diferenciador": "Gema apical (viva vs. morta)",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Folhas novas pequenas e estreitas.",
+          "orgao": "Folha nova",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Rosetamento compacto e baixo crescimento generalizado.",
+          "orgao": "Ramo novo",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se a gema apical está viva (zinco) ou morta com brotação lateral (boro).",
+        "Análise foliar para confirmar o nível de zinco."
+      ],
+      "proxima_foto_recomendada": [
+        "Ponteiro do ramo em close-up",
+        "Comparação com ramo de planta sadia próxima"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-029",
@@ -461,7 +1727,41 @@
     "sint_avancado": "Baixo desenvolvimento radicular, pouca florada, frutos pequenos, folhas com tons arroxeados e queda de produtividade.",
     "confianca": 0.5,
     "manejo_prev": "Adubação fosfatada na formação da lavoura, conforme análise de solo.",
-    "manejo_corr": "Reposição de fósforo conforme recomendação técnica."
+    "manejo_corr": "Reposição de fósforo conforme recomendação técnica.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Coloração verde-escura a arroxeada nas folhas, principalmente na face inferior e nas nervuras, sem a clorose amarela típica de outras deficiências.",
+        "Folhas menores que o normal, porém sem necrose marginal associada.",
+        "Crescimento lento generalizado da planta, sem sintoma localizado específico em um único órgão."
+      ],
+      "diagnostico_diferencial": [],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Leve arroxeamento e folhas ligeiramente menores.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Tons arroxeados generalizados, baixa florada e frutos pequenos.",
+          "orgao": "Folha e fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se a coloração arroxeada está presente na face inferior da folha e nas nervuras.",
+        "Análise de solo/foliar para confirmar o nível de fósforo."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha isolada mostrando a face inferior",
+        "Planta inteira comparada a vizinhas sadias"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-030",
@@ -477,7 +1777,55 @@
     "sint_avancado": "Raízes superficiais e escuras, queda foliar, morte de raízes finas, seca de ramos e falhas de plantas.",
     "confianca": 0.33,
     "manejo_prev": "Manejo do tráfego de máquinas, cobertura vegetal e drenagem adequada.",
-    "manejo_corr": "Subsolagem e melhoria da drenagem, conforme diagnóstico técnico."
+    "manejo_corr": "Subsolagem e melhoria da drenagem, conforme diagnóstico técnico.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Ao escavar, as raízes ficam concentradas próximas à superfície, tortuosas e com coloração escurecida, indicando falta de oxigênio no solo — sem galhas nem lesões fúngicas evidentes.",
+        "O padrão de plantas afetadas costuma seguir a topografia ou o trajeto de máquinas (carreadores, baixadas do terreno), diferente das reboleiras mais aleatórias causadas por pragas ou patógenos."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-010",
+          "semelhanca": "Ambas causam baixo vigor, clorose e reboleiras sem lesão foliar característica.",
+          "diferenca_principal": "A compactação/encharcamento mostra raízes superficiais e escurecidas, sem galhas; o nematoide mostra galhas nodulares na raiz.",
+          "orgao_diferenciador": "Raiz escavada",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-039",
+          "semelhanca": "Ambas estão associadas a solos mal drenados/encharcados.",
+          "diferenca_principal": "A compactação/encharcamento afeta amplamente o sistema radicular sem exsudação; a gomose concentra o dano no colo com exsudação de goma característica.",
+          "orgao_diferenciador": "Colo (gomose) vs. raiz difusa (compactação)",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Crescimento lento e amarelecimento leve.",
+          "orgao": "Planta inteira",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Raízes superficiais escurecidas, morte de raízes finas, seca de ramos.",
+          "orgao": "Raiz",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Escavar a raiz e verificar se está concentrada na superfície, torta e escurecida, sem galhas.",
+        "Relacionar as plantas afetadas com o trajeto de máquinas ou pontos baixos do terreno."
+      ],
+      "proxima_foto_recomendada": [
+        "Raiz escavada",
+        "Vista panorâmica relacionando a reboleira com a topografia/trajeto de máquinas"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "nao",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-031",
@@ -493,7 +1841,49 @@
     "sint_avancado": "Infestação intensa, fumagina, enfraquecimento de ramos e queda de produção.",
     "confianca": 0.45,
     "manejo_prev": "Monitoramento (praga emergente ainda em caracterização) e controle de formigas associadas.",
-    "manejo_corr": "Inseticida sistêmico registrado; recomenda-se acompanhar orientações atualizadas do Incaper."
+    "manejo_corr": "Inseticida sistêmico registrado; recomenda-se acompanhar orientações atualizadas do Incaper.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Os dois filamentos caudais ficam mais visíveis com auxílio de lupa, projetando-se para trás do corpo do inseto como uma \"cauda bífida\".",
+        "Coloniza também caule e folhas, não só frutos e rosetas — diferente da cochonilha-da-roseta, que se concentra mais nas rosetas.",
+        "Por ser praga emergente ainda em caracterização no ES, a identificação de campo tem menor grau de certeza que a de outras cochonilhas já bem descritas."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-006",
+          "semelhanca": "Mesma família de insetos (cochonilhas-farinhentas) com massa branca algodonosa muito parecida.",
+          "diferenca_principal": "A cochonilha-de-cauda apresenta dois filamentos caudais característicos, ausentes na cochonilha-da-roseta.",
+          "orgao_diferenciador": "Corpo do inseto (presença ou ausência de filamentos caudais)",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Colônias pequenas em frutos/ramos.",
+          "orgao": "Fruto/ramo",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Infestação intensa, fumagina e queda de produção.",
+          "orgao": "Ramo, caule e folha",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Usar lupa para confirmar os dois filamentos caudais no corpo do inseto.",
+        "Verificar colonização em caule e folhas, não só em frutos/rosetas."
+      ],
+      "proxima_foto_recomendada": [
+        "Close-up do inseto com lupa, se possível",
+        "Caule e folhas mostrando a extensão da colônia"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-032",
@@ -509,7 +1899,48 @@
     "sint_avancado": "Formação de \"pipocas\" (galhas) nas raízes, redução do sistema radicular e morte de mudas em infestações severas.",
     "confianca": 0.28,
     "manejo_prev": "Uso de mudas certificadas e monitoramento em plantas jovens.",
-    "manejo_corr": "Inseticida de solo registrado, aplicado por profissional habilitado."
+    "manejo_corr": "Inseticida de solo registrado, aplicado por profissional habilitado.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Ao cortar as \"pipocas\" (estruturas nodulares) na raiz, encontram-se insetos brancos e cerosos no interior — diferente das galhas de nematoide, que são internas ao tecido e não abrigam inseto visível.",
+        "Formigas na base do tronco funcionam como indício indireto forte, já que costumam cultivar essas cochonilhas subterrâneas."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-010",
+          "semelhanca": "Ambas causam estruturas nodulares/engrossadas nas raízes que podem ser confundidas a olho nu.",
+          "diferenca_principal": "As \"pipocas\" da cochonilha-da-raiz costumam abrigar o inseto visível ao cortar a estrutura; as galhas de nematoide são mais uniformes e internas ao tecido radicular.",
+          "orgao_diferenciador": "Raiz cortada",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Poucas \"pipocas\" na raiz, amarelecimento leve na parte aérea.",
+          "orgao": "Raiz",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Redução do sistema radicular, morte de mudas em infestações severas.",
+          "orgao": "Raiz",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Cortar as estruturas nodulares da raiz para verificar a presença do inseto branco ceroso.",
+        "Verificar presença de formigas na base do tronco."
+      ],
+      "proxima_foto_recomendada": [
+        "Raiz escavada com \"pipocas\"",
+        "Estrutura nodular cortada ao meio"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "nao",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-033",
@@ -525,7 +1956,56 @@
     "sint_avancado": "Queda de folhas novas, paralisação do crescimento de ponteiros e deformação de frutos.",
     "confianca": 0.42,
     "manejo_prev": "Monitoramento de brotos novos e manejo da irrigação para evitar estresse hídrico.",
-    "manejo_corr": "Acaricida registrado, conforme nível de infestação."
+    "manejo_corr": "Acaricida registrado, conforme nível de infestação.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "O bronzeamento tem aspecto uniforme e \"vitrificado\"/brilhante na face inferior da folha nova, diferente do pontilhado seco característico do ácaro-vermelho.",
+        "Folhas novas ficam encurvadas para baixo (epinastia) além de enrugadas.",
+        "O ácaro em si é microscópico e não é visível a olho nu, exigindo lupa de alta ampliação para confirmação."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-013",
+          "semelhanca": "Ambos são ácaros que atacam o cafeeiro e podem causar bronzeamento.",
+          "diferenca_principal": "O ácaro-branco ataca folhas novas e brotos, causando enrugamento e deformação; o ácaro-vermelho ataca folhas maduras causando pontilhado e bronzeamento.",
+          "orgao_diferenciador": "Idade da folha atacada (nova vs. madura)",
+          "dificuldade": "media"
+        },
+        {
+          "problema_id": "CAF-026",
+          "semelhanca": "Ambos atacam folhas novas causando bronzeamento e deformação, podendo ser confundidos a olho nu.",
+          "diferenca_principal": "O ácaro-branco causa bronzeamento mais uniforme, sem pontuações fecais visíveis sem lupa; o tripes deixa pontuações escuras de excrementos visíveis junto ao prateamento.",
+          "orgao_diferenciador": "Face inferior da folha nova (presença ou ausência de pontuações fecais)",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Leve bronzeamento em folhas novas.",
+          "orgao": "Folha nova",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Paralisação do crescimento de ponteiros e deformação de frutos.",
+          "orgao": "Ponteiro e fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Examinar a face inferior da folha nova com lupa de alta ampliação (o ácaro é microscópico).",
+        "Verificar se as folhas novas estão encurvadas para baixo."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha nova em macro extremo (face inferior)",
+        "Ponteiro do ramo mostrando a deformação"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-034",
@@ -541,7 +2021,42 @@
     "sint_avancado": "Destruição do sistema radicular e morte de plantas em focos severos.",
     "confianca": 0.22,
     "manejo_prev": "Monitoramento em áreas de histórico; atenção a rotações com culturas hospedeiras.",
-    "manejo_corr": "Inseticida de solo registrado, aplicado por profissional habilitado."
+    "manejo_corr": "Inseticida de solo registrado, aplicado por profissional habilitado.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Os sintomas aéreos são inespecíficos e indistinguíveis de outros problemas radiculares só pela parte aérea.",
+        "A confirmação depende de escavar o solo ao redor da raiz em busca dos insetos (percevejo castanho-escuro ou larva/adulto do besouro Migdolus)."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-036",
+          "semelhanca": "Ambas são pragas radiculares que causam reboleiras de baixo vigor com sintomas aéreos indistinguíveis.",
+          "diferenca_principal": "A diferenciação exige escavar a raiz e identificar o inseto encontrado.",
+          "orgao_diferenciador": "Raiz escavada",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-007",
+          "semelhanca": "Ambas são pragas radiculares com sintomas aéreos indistinguíveis entre si.",
+          "diferenca_principal": "A diferenciação exige escavar a raiz e identificar o inseto encontrado.",
+          "orgao_diferenciador": "Raiz escavada",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [],
+      "evidencias_confirmacao": [
+        "Escavar o solo ao redor da raiz até profundidade razoável para localizar os insetos.",
+        "Enviar espécime para identificação entomológica, se possível."
+      ],
+      "proxima_foto_recomendada": [
+        "Raiz escavada com solo ao redor",
+        "Inseto encontrado, se capturado"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "nao",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-035",
@@ -557,7 +2072,41 @@
     "sint_avancado": "Desfolha severa, morte de mudas recém-plantadas e atraso no desenvolvimento de plantas jovens.",
     "confianca": 0.78,
     "manejo_prev": "Monitoramento de carreiros e sauveiros, principalmente na implantação da lavoura.",
-    "manejo_corr": "Isca formicida registrada, aplicada conforme atividade das formigas."
+    "manejo_corr": "Isca formicida registrada, aplicada conforme atividade das formigas.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Os recortes em meia-lua têm bordas lisas e bem definidas, diferente do rasgo irregular deixado por lagartas.",
+        "Presença de carreiros/trilhas visíveis no solo entre a planta e o formigueiro, com formigas carregando fragmentos de folha.",
+        "O ataque costuma ser noturno, então o dano aparece \"pronto\" pela manhã, sem inseto visível na planta durante o dia."
+      ],
+      "diagnostico_diferencial": [],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Poucos recortes isolados nas folhas.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Desfolha severa e morte de mudas recém-plantadas.",
+          "orgao": "Folha e planta jovem",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Procurar carreiros de formigas no solo levando ao formigueiro.",
+        "Verificar se as bordas do recorte são lisas (formiga), e não irregulares (lagarta)."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha com recorte em close-up",
+        "Trilha de formigas no solo, se visível"
+      ],
+      "confiabilidade_visual": "alta",
+      "diagnostico_exclusivamente_visual": "sim",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-036",
@@ -573,7 +2122,55 @@
     "sint_avancado": "Raízes cortadas ou raspadas, tombamento de mudas e morte de plantas jovens.",
     "confianca": 0.24,
     "manejo_prev": "Monitoramento do solo antes do plantio, evitando áreas com histórico da praga.",
-    "manejo_corr": "Inseticida de solo registrado, aplicado por profissional habilitado."
+    "manejo_corr": "Inseticida de solo registrado, aplicado por profissional habilitado.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "A planta se solta do solo com facilidade ao ser puxada levemente, por ter as raízes cortadas/raspadas — teste simples de campo bastante indicativo.",
+        "Ao escavar, encontram-se larvas curvas em formato de \"C\", esbranquiçadas e com cabeça marrom, característica do grupo Melolonthidae."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-034",
+          "semelhanca": "Ambas são pragas radiculares que causam reboleiras de baixo vigor com sintomas aéreos indistinguíveis.",
+          "diferenca_principal": "A diferenciação exige escavar a raiz e identificar o inseto encontrado (larva em \"C\" vs. percevejo/besouro Migdolus).",
+          "orgao_diferenciador": "Raiz escavada",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-007",
+          "semelhanca": "Ambas são pragas radiculares com sintomas aéreos indistinguíveis entre si.",
+          "diferenca_principal": "A diferenciação exige escavar a raiz e identificar o inseto encontrado.",
+          "orgao_diferenciador": "Raiz escavada",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Amarelecimento leve, planta ainda firme ao solo.",
+          "orgao": "Planta inteira",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Planta solta com facilidade do solo, raízes cortadas ou raspadas.",
+          "orgao": "Raiz",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Testar se a planta se solta facilmente do solo ao puxar.",
+        "Escavar e procurar larvas em formato de \"C\"."
+      ],
+      "proxima_foto_recomendada": [
+        "Raiz escavada com a larva, se encontrada",
+        "Planta mostrando a facilidade de desprendimento do solo"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-037",
@@ -589,7 +2186,49 @@
     "sint_avancado": "Necrose com coloração de \"canela\" nas lesões, queda de folhas e frutos, seca de ramos.",
     "confianca": 0.28,
     "manejo_prev": "Controle do ácaro vetor (Brevipalpus) e distanciamento de áreas citrícolas quando possível.",
-    "manejo_corr": "Não há cura direta; o manejo foca no controle do vetor com acaricida registrado."
+    "manejo_corr": "Não há cura direta; o manejo foca no controle do vetor com acaricida registrado.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "A necrose característica costuma desenvolver coloração alaranjada/acastanhada, lembrando \"canela em pó\" — o indício mais citado para diferenciar de coffee ringspot, embora a sobreposição entre os dois quadros ainda seja grande.",
+        "Ocorrência mais associada à proximidade de áreas de citricultura, já que o ácaro vetor Brevipalpus também ataca citros."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-015",
+          "semelhanca": "Praticamente idênticas visualmente: ambas causam lesões cloróticas circulares com halo, transmitidas pelo mesmo gênero de ácaro (Brevipalpus).",
+          "diferenca_principal": "Não há característica de campo totalmente confiável; a leprose evolui para necrose de coloração \"canela\", enquanto o coffee ringspot tende a manchas em anel mais definidas, mas com sobreposição significativa.",
+          "orgao_diferenciador": "Nenhum órgão isolado permite diferenciação segura a olho nu",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Mancha clorótica circular com halo.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Necrose de coloração \"canela\", queda de folhas e frutos, seca de ramos.",
+          "orgao": "Folha, fruto e ramo",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se a necrose tem coloração alaranjada/acastanhada característica.",
+        "Checar a proximidade com áreas de citricultura.",
+        "Recomenda-se diagnóstico laboratorial para confirmação segura."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha com lesão em close-up mostrando a coloração da necrose",
+        "Fruto afetado"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "nao",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-038",
@@ -605,7 +2244,41 @@
     "sint_avancado": "Deformação e enrolamento de folhas, lesões corticosas em frutos e seca de ponteiros.",
     "confianca": 0.52,
     "manejo_prev": "Uso de cultivares menos suscetíveis e arejamento da lavoura.",
-    "manejo_corr": "Fungicida registrado, conforme nível de infecção."
+    "manejo_corr": "Fungicida registrado, conforme nível de infecção.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "As lesões são salientes (em relevo) e ásperas ao toque, lembrando uma verruga ou casca — diferente das manchas planas/deprimidas da maioria das outras doenças foliares.",
+        "Em frutos forma crosta corticosa endurecida na superfície.",
+        "Folhas afetadas frequentemente ficam deformadas e enroladas de forma assimétrica."
+      ],
+      "diagnostico_diferencial": [],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Pequenas lesões salientes isoladas em folha jovem.",
+          "orgao": "Folha jovem",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Deformação e enrolamento foliar, crosta corticosa em frutos, seca de ponteiros.",
+          "orgao": "Folha e fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Tocar a lesão para confirmar a textura áspera/em relevo, diferente de uma mancha plana.",
+        "Verificar se os frutos apresentam crosta corticosa."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha em close-up mostrando o relevo da lesão",
+        "Fruto com crosta"
+      ],
+      "confiabilidade_visual": "alta",
+      "diagnostico_exclusivamente_visual": "sim",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-039",
@@ -621,7 +2294,57 @@
     "sint_avancado": "Anelamento do colo, murcha generalizada e morte da planta.",
     "confianca": 0.27,
     "manejo_prev": "Drenagem adequada, evitando encharcamento na região do colo.",
-    "manejo_corr": "Fungicida específico registrado e melhoria da drenagem do solo."
+    "manejo_corr": "Fungicida específico registrado e melhoria da drenagem do solo.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "A exsudação de goma (substância viscosa amarelada a acastanhada) escorrendo pela casca do colo é a evidência mais característica e discriminativa.",
+        "Ao raspar a casca na região afetada, o tecido interno está encharcado, amolecido e escurecido.",
+        "Ocorre predominantemente em solos mal drenados ou com encharcamento frequente na base do tronco."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-017",
+          "semelhanca": "Ambas são podridões de origem fúngica que afetam raiz/colo e causam murcha e morte da planta.",
+          "diferenca_principal": "A gomose apresenta exsudação de goma no colo; a roseliniose apresenta micélio branco-acinzentado na raiz e associação com madeira em decomposição.",
+          "orgao_diferenciador": "Colo (gomose) vs. raiz (roseliniose)",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-018",
+          "semelhanca": "Ambas afetam o colo da planta com lesão/podridão que pode levar à morte.",
+          "diferenca_principal": "A gomose é típica de plantas adultas, com exsudação de goma; a rizoctoniose é típica de mudas e viveiro.",
+          "orgao_diferenciador": "Estágio da planta (adulta vs. muda)",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Leve escurecimento do colo com exsudação pontual de goma.",
+          "orgao": "Colo",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Anelamento completo do colo, casca amolecida, murcha generalizada.",
+          "orgao": "Colo e raiz",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar exsudação de goma na casca do colo.",
+        "Raspar a casca para checar se o tecido interno está encharcado/escurecido.",
+        "Verificar histórico de encharcamento na base do tronco."
+      ],
+      "proxima_foto_recomendada": [
+        "Close-up do colo mostrando a exsudação de goma",
+        "Colo com a casca raspada"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-040",
@@ -637,7 +2360,49 @@
     "sint_avancado": "Amarelecimento intenso incluindo as nervuras, necrose e queda foliar, redução do crescimento.",
     "confianca": 0.52,
     "manejo_prev": "Adubação nitrogenada parcelada, conforme análise de solo e foliar.",
-    "manejo_corr": "Reposição de nitrogênio conforme recomendação técnica."
+    "manejo_corr": "Reposição de nitrogênio conforme recomendação técnica.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "A clorose é uniforme em toda a folha, incluindo as nervuras — diferente das deficiências que poupam a nervura, como magnésio, manganês e ferro.",
+        "Progride tipicamente das folhas mais velhas para as mais novas, conforme o nitrogênio é redistribuído pela planta.",
+        "As folhas afetadas perdem o brilho característico, assumindo tom amarelo-esverdeado uniforme antes de amarelecer por completo."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-019",
+          "semelhanca": "Ambas afetam preferencialmente as folhas mais velhas da planta.",
+          "diferenca_principal": "A deficiência de nitrogênio causa clorose uniforme incluindo as nervuras; a de magnésio causa clorose internerval com nervuras permanecendo verdes.",
+          "orgao_diferenciador": "Nervura da folha (clorótica vs. verde)",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Clorose leve e uniforme em folhas velhas.",
+          "orgao": "Folha velha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Amarelecimento intenso incluindo nervuras, necrose e queda foliar.",
+          "orgao": "Folha velha",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se a clorose inclui as nervuras (o que a diferencia de Mg/Mn/Fe).",
+        "Análise foliar para confirmar o nível de nitrogênio."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha isolada em close-up mostrando as nervuras",
+        "Ramo inteiro mostrando o gradiente entre folhas velhas e novas"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-041",
@@ -653,7 +2418,56 @@
     "sint_avancado": "Necrose de bordas e ápice foliar, morte de gemas apicais e deformação de folhas novas.",
     "confianca": 0.4,
     "manejo_prev": "Calagem conforme análise de solo.",
-    "manejo_corr": "Reposição de cálcio via calcário ou gesso agrícola, conforme recomendação técnica."
+    "manejo_corr": "Reposição de cálcio via calcário ou gesso agrícola, conforme recomendação técnica.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "A clorose começa pela borda da folha jovem e avança em direção ao centro internervalmente, formando um padrão de \"queima\" a partir da ponta e das bordas.",
+        "Folhas novas afetadas costumam ficar deformadas, encarquilhadas e menores que o normal.",
+        "A morte da gema apical ocorre sem cordões miceliais, pó ou lesões fúngicas visíveis associadas."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-009",
+          "semelhanca": "Ambas causam sintomas visuais nas bordas/pontas de folhas.",
+          "diferenca_principal": "A deficiência de cálcio afeta principalmente folhas novas e gemas apicais; a de potássio afeta folhas velhas.",
+          "orgao_diferenciador": "Idade da folha afetada (nova vs. velha)",
+          "dificuldade": "media"
+        },
+        {
+          "problema_id": "CAF-027",
+          "semelhanca": "Ambas afetam folhas novas e gemas apicais, podendo ser confundidas nos estágios iniciais.",
+          "diferenca_principal": "A deficiência de cálcio causa clorose progressiva da borda para o centro da folha; a de boro causa morte abrupta da gema apical seguida de superbrotamento lateral em roseta.",
+          "orgao_diferenciador": "Padrão de progressão do sintoma",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Clorose leve na borda de folha nova.",
+          "orgao": "Folha nova",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Necrose de bordas e ápice foliar, morte de gemas apicais e deformação de folhas novas.",
+          "orgao": "Folha nova e gema apical",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se o sintoma progride da borda para o centro da folha jovem.",
+        "Checar se há morte de gema apical sem sinais de superbrotamento lateral (o que descartaria deficiência de boro)."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha nova em close-up mostrando a progressão da borda para o centro",
+        "Ponteiro do ramo"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-042",
@@ -669,7 +2483,48 @@
     "sint_avancado": "Amarelecimento avançado por toda a planta e redução do crescimento.",
     "confianca": 0.38,
     "manejo_prev": "Adubação com fontes de enxofre, conforme análise de solo.",
-    "manejo_corr": "Reposição de enxofre conforme recomendação técnica."
+    "manejo_corr": "Reposição de enxofre conforme recomendação técnica.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "A clorose começa nas folhas mais novas, no ponteiro — ao contrário da deficiência de nitrogênio, que começa nas folhas mais velhas.",
+        "Inicialmente é bem uniforme, sem padrão internerval marcado, o que a diferencia das deficiências de magnésio, manganês e ferro."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-040",
+          "semelhanca": "Ambas causam clorose generalizada da folhagem, podendo ser confundidas à distância.",
+          "diferenca_principal": "A deficiência de enxofre começa em folhas novas; a de nitrogênio começa em folhas velhas.",
+          "orgao_diferenciador": "Idade da folha onde a clorose se inicia (nova vs. velha)",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Clorose leve em folhas novas.",
+          "orgao": "Folha nova",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Amarelecimento avançado por toda a planta e redução do crescimento.",
+          "orgao": "Planta inteira",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se a clorose começa nas folhas mais novas (ponteiro), e não nas mais velhas.",
+        "Análise foliar para confirmar o nível de enxofre."
+      ],
+      "proxima_foto_recomendada": [
+        "Ramo inteiro mostrando folhas novas e velhas lado a lado",
+        "Folha nova isolada"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-043",
@@ -685,7 +2540,56 @@
     "sint_avancado": "Amarelão geral da folhagem, folha mais lisa e com nervuras pouco pronunciadas.",
     "confianca": 0.36,
     "manejo_prev": "Monitoramento em solos muito calcareados, onde a deficiência é mais comum.",
-    "manejo_corr": "Reposição foliar de manganês conforme recomendação técnica."
+    "manejo_corr": "Reposição foliar de manganês conforme recomendação técnica.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "O sintoma concentra-se especificamente no 2º e 3º pares de folhas a partir da ponta do ramo — nem na folha mais nova, nem nas mais velhas — o que ajuda a diferenciar de outras deficiências.",
+        "A folha afetada fica com textura mais lisa e nervuras pouco marcadas, quase \"apagadas\".",
+        "É mais comum em solos muito calcareados, geralmente após calagem excessiva."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-019",
+          "semelhanca": "Ambas causam clorose internerval que pode ser confundida à primeira vista.",
+          "diferenca_principal": "A deficiência de manganês afeta preferencialmente o 2º/3º par de folhas terminais; a de magnésio afeta folhas velhas.",
+          "orgao_diferenciador": "Idade da folha afetada (folhas terminais específicas vs. folhas velhas)",
+          "dificuldade": "media"
+        },
+        {
+          "problema_id": "CAF-044",
+          "semelhanca": "Ambas causam clorose internerval em folhas novas e podem ser confundidas entre si.",
+          "diferenca_principal": "A deficiência de manganês afeta o 2º/3º par de folhas terminais, com nervuras pouco marcadas; a de ferro afeta folhas novas do baixeiro, com reticulado fino de nervuras bem verdes e nítidas.",
+          "orgao_diferenciador": "Posição exata da folha afetada e nitidez das nervuras",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Coloração verde-clara internerval com pontuações amareladas.",
+          "orgao": "Folha nova (2º/3º par)",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Amarelão geral da folhagem, folha mais lisa e com nervuras pouco pronunciadas.",
+          "orgao": "Folha",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Identificar exatamente qual par de folhas, contado a partir da ponta, está afetado.",
+        "Verificar histórico de calagem excessiva na área."
+      ],
+      "proxima_foto_recomendada": [
+        "Ramo mostrando a posição exata das folhas afetadas, contadas a partir da ponta",
+        "Folha isolada em close-up"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-044",
@@ -701,7 +2605,49 @@
     "sint_avancado": "Folhas quase brancas em casos severos e paralisação do crescimento.",
     "confianca": 0.38,
     "manejo_prev": "Evitar excesso de calagem; monitorar em solos encharcados.",
-    "manejo_corr": "Reposição foliar de ferro conforme recomendação técnica."
+    "manejo_corr": "Reposição foliar de ferro conforme recomendação técnica.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Clorose internerval com reticulado fino de nervuras nítidas e verdes, formando uma malha bem definida — mais fina e regular que o padrão típico de magnésio ou manganês.",
+        "Em casos severos a folha fica quase branca, mantendo apenas as nervuras mais grossas visíveis.",
+        "Concentra-se nas folhas novas do baixeiro, mais comum em mudas e plantas jovens."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-043",
+          "semelhanca": "Ambas causam clorose internerval em folhas novas e podem ser confundidas entre si.",
+          "diferenca_principal": "A deficiência de ferro afeta folhas novas do baixeiro, com reticulado fino de nervuras bem verdes e nítidas; a de manganês afeta o 2º/3º par de folhas terminais, com nervuras pouco marcadas.",
+          "orgao_diferenciador": "Posição exata da folha afetada e nitidez das nervuras",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Clorose internerval leve com reticulado fino de nervuras verdes.",
+          "orgao": "Folha nova (baixeiro)",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Folha quase branca em casos severos, crescimento paralisado.",
+          "orgao": "Folha nova",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Observar o reticulado fino de nervuras verdes contra o fundo clorótico.",
+        "Verificar histórico de encharcamento ou calagem excessiva no solo."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha nova em macro mostrando o reticulado de nervuras",
+        "Planta jovem inteira"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-045",
@@ -717,7 +2663,41 @@
     "sint_avancado": "Deformação e curvatura das folhas (\"orelha de zebu\") e necrose marginal.",
     "confianca": 0.28,
     "manejo_prev": "Monitoramento — deficiência rara, já que o cobre costuma ser suprido por fungicidas cúpricos.",
-    "manejo_corr": "Reposição foliar de cobre conforme recomendação técnica, se confirmada em análise."
+    "manejo_corr": "Reposição foliar de cobre conforme recomendação técnica, se confirmada em análise.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Folhas novas ficam curvadas de forma característica, lembrando uma \"orelha de zebu\" — deformação bastante distintiva quando presente.",
+        "Nervuras secundárias ficam salientes/em relevo na face inferior da folha.",
+        "É uma deficiência rara em cafeeiros, já que o cobre costuma ser suprido pelos fungicidas cúpricos normalmente usados no manejo de doenças."
+      ],
+      "diagnostico_diferencial": [],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Perda leve de coloração em folha nova.",
+          "orgao": "Folha nova",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Curvatura característica (\"orelha de zebu\") e necrose marginal.",
+          "orgao": "Folha nova",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar a curvatura característica da folha nova.",
+        "Considerar se a lavoura realmente não recebe fungicidas cúpricos — situação incomum, que torna a deficiência pouco provável quando presente."
+      ],
+      "proxima_foto_recomendada": [
+        "Folha nova em close-up mostrando a curvatura",
+        "Ramo inteiro"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-046",
@@ -733,7 +2713,56 @@
     "sint_avancado": "Seca total da parte aérea, podendo levar à morte de ramos ou da planta inteira em geadas severas.",
     "confianca": 0.78,
     "manejo_prev": "Escolha de locais menos suscetíveis, quebra-ventos e cobertura de mudas jovens em risco.",
-    "manejo_corr": "Poda de recuperação após o evento; não há produto corretivo aplicável."
+    "manejo_corr": "Poda de recuperação após o evento; não há produto corretivo aplicável.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "O dano tende a seguir um padrão ligado à topografia — mais severo em fundos de vale e áreas baixas (\"bolsões de frio\") — afetando várias plantas vizinhas de uma vez, não plantas isoladas.",
+        "Folhas queimadas assumem coloração escura/marrom-acinzentada uniforme logo após o evento, sem lesão pontual ou pústula associada.",
+        "O dano aparece de forma súbita, coincidindo com uma noite fria específica, o que pode ser confirmado por registro de temperatura ou relato local."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-005",
+          "semelhanca": "Ambas costumam ocorrer após eventos de frio e causam queima/seca de ponteiros e ramos.",
+          "diferenca_principal": "A geada costuma causar dano abrupto e generalizado em toda a área exposta ao frio; a phoma é mais localizada e progressiva, com lesões fúngicas visíveis.",
+          "orgao_diferenciador": "Padrão de distribuição na lavoura",
+          "dificuldade": "alta"
+        },
+        {
+          "problema_id": "CAF-014",
+          "semelhanca": "Ambas estão associadas a eventos recentes de frio e podem causar queima de ponteiros.",
+          "diferenca_principal": "A geada causa dano abrupto e generalizado por toda a área exposta ao frio; a mancha aureolada causa lesões localizadas, com halo amarelo bem definido.",
+          "orgao_diferenciador": "Padrão de distribuição na lavoura",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Encharcamento e escurecimento das folhas, aspecto de queimado.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Seca total da parte aérea, podendo levar à morte de ramos ou da planta inteira.",
+          "orgao": "Planta inteira",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se o padrão de dano segue a topografia (fundo de vale, área baixa).",
+        "Confirmar ocorrência de geada na noite anterior via registro local ou relato."
+      ],
+      "proxima_foto_recomendada": [
+        "Vista panorâmica da área afetada mostrando o padrão topográfico",
+        "Ramo com folhas queimadas"
+      ],
+      "confiabilidade_visual": "alta",
+      "diagnostico_exclusivamente_visual": "sim",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-047",
@@ -749,7 +2778,41 @@
     "sint_avancado": "Desfolha severa, quebra de ramos e porta de entrada para fungos oportunistas.",
     "confianca": 0.62,
     "manejo_prev": "Redes de proteção, quando viável economicamente, em áreas de risco recorrente.",
-    "manejo_corr": "Poda de recuperação e fungicida preventivo contra fungos oportunistas nas lesões."
+    "manejo_corr": "Poda de recuperação e fungicida preventivo contra fungos oportunistas nas lesões.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Perfurações e lacerações têm formato irregular e bordas rasgadas, distribuídas por toda a face exposta da planta — diferente do recorte limpo de formigas ou do orifício único de brocas.",
+        "Frequentemente afeta com mais intensidade o lado da planta voltado para a direção de onde veio a tempestade.",
+        "O dano ocorre de forma súbita, coincidindo com um evento de chuva de granizo relatado na região."
+      ],
+      "diagnostico_diferencial": [],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Perfurações e lacerações recentes, com aspecto ainda fresco.",
+          "orgao": "Folha e fruto",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Desfolha, ramos quebrados e lesões colonizadas por fungos oportunistas.",
+          "orgao": "Folha, ramo e fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Confirmar ocorrência de chuva de granizo na região recentemente.",
+        "Verificar se o dano está concentrado no lado da planta exposto à direção da tempestade."
+      ],
+      "proxima_foto_recomendada": [
+        "Planta inteira mostrando o lado mais afetado",
+        "Folha e fruto com lesões em close-up"
+      ],
+      "confiabilidade_visual": "alta",
+      "diagnostico_exclusivamente_visual": "sim",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-048",
@@ -765,7 +2828,41 @@
     "sint_avancado": "Rachaduras, morte do câmbio e porta de entrada para fungos causadores de cancro.",
     "confianca": 0.5,
     "manejo_prev": "Poda gradual, evitando exposição súbita de ramos antes protegidos pela copa.",
-    "manejo_corr": "Proteção do tronco e ramos expostos; não há produto corretivo específico."
+    "manejo_corr": "Proteção do tronco e ramos expostos; não há produto corretivo específico.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Manchas claras a escurecidas aparecem exclusivamente no lado do tronco/ramo voltado para o sol, poupando o lado sombreado — o padrão direcional é a evidência mais discriminativa.",
+        "Costuma surgir dias a semanas após poda ou decote que expôs tecido antes protegido pela copa.",
+        "A casca afetada pode rachar e se soltar em estágios avançados, expondo o lenho."
+      ],
+      "diagnostico_diferencial": [],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Manchas claras na casca do lado exposto ao sol.",
+          "orgao": "Tronco/ramo",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Rachaduras, morte do câmbio e porta de entrada para fungos causadores de cancro.",
+          "orgao": "Tronco/ramo",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se a lesão está restrita ao lado do tronco/ramo voltado para o sol.",
+        "Checar se houve poda ou decote recente que expôs o tecido."
+      ],
+      "proxima_foto_recomendada": [
+        "Tronco/ramo mostrando os dois lados (exposto e sombreado) para comparação",
+        "Close-up da lesão"
+      ],
+      "confiabilidade_visual": "alta",
+      "diagnostico_exclusivamente_visual": "sim",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-049",
@@ -781,7 +2878,35 @@
     "sint_avancado": "Baixo desenvolvimento geral, sintomas de deficiência nutricional associada e queda de produtividade.",
     "confianca": 0.18,
     "manejo_prev": "Calagem preventiva conforme análise de solo em áreas ácidas.",
-    "manejo_corr": "Calagem corretiva conforme recomendação técnica, com base em nova análise de solo."
+    "manejo_corr": "Calagem corretiva conforme recomendação técnica, com base em nova análise de solo.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "O sintoma mais confiável está nas raízes, não na parte aérea: raízes ficam curtas, grossas e pouco ramificadas (\"em escova\"), diferente do sistema radicular fino e espalhado de uma planta sadia.",
+        "A parte aérea mostra apenas sinais indiretos e inespecíficos de deficiência nutricional associada, sem lesão característica própria."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-030",
+          "semelhanca": "Ambas são condições de solo que reduzem o desenvolvimento radicular e causam baixo vigor generalizado.",
+          "diferenca_principal": "A toxicidade por alumínio causa raízes curtas e grossas (\"em escova\") de forma relativamente uniforme na área ácida; a compactação/encharcamento causa raízes superficiais e tortas, ligadas ao trajeto de máquinas ou pontos baixos do terreno.",
+          "orgao_diferenciador": "Formato da raiz escavada",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [],
+      "evidencias_confirmacao": [
+        "Escavar a raiz e comparar o formato (curta/grossa) com uma planta de referência em solo corrigido.",
+        "Análise de solo para confirmar a saturação de alumínio e o pH."
+      ],
+      "proxima_foto_recomendada": [
+        "Raiz escavada em close-up",
+        "Documento de análise de solo, se disponível"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "nao",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-050",
@@ -797,7 +2922,56 @@
     "sint_avancado": "Desfolha, redução de crescimento e morte de raízes finas.",
     "confianca": 0.32,
     "manejo_prev": "Manejo adequado de irrigação e adubação; monitoramento da qualidade da água de irrigação.",
-    "manejo_corr": "Lixiviação de sais com irrigação controlada, conforme diagnóstico técnico."
+    "manejo_corr": "Lixiviação de sais com irrigação controlada, conforme diagnóstico técnico.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "A murcha ocorre mesmo com o solo visivelmente úmido — o dado mais discriminativo em relação ao déficit hídrico comum.",
+        "A queima de borda foliar atinge folhas de várias idades simultaneamente, diferente da deficiência de potássio, que se concentra nas folhas mais velhas.",
+        "Costuma estar associada a lavouras irrigadas, especialmente com água de qualidade duvidosa ou adubação excessiva recente."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-008",
+          "semelhanca": "Ambas causam murcha e queima de bordas foliares sem lesão fúngica associada.",
+          "diferenca_principal": "Na salinização a planta murcha mesmo com o solo úmido; no déficit hídrico a murcha correlaciona diretamente com solo seco.",
+          "orgao_diferenciador": "Umidade do solo no momento do sintoma",
+          "dificuldade": "media"
+        },
+        {
+          "problema_id": "CAF-009",
+          "semelhanca": "Ambas causam queima de margem foliar.",
+          "diferenca_principal": "A salinização atinge folhas de diversas idades e a planta murcha mesmo irrigada; a deficiência de potássio concentra-se em folhas velhas, sem murcha associada.",
+          "orgao_diferenciador": "Idade da folha e presença de murcha",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Queima leve de borda foliar, murcha apesar do solo úmido.",
+          "orgao": "Folha",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Desfolha, redução de crescimento e morte de raízes finas.",
+          "orgao": "Folha e raiz",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Confirmar que o solo está úmido no momento da murcha, o que descarta déficit hídrico simples.",
+        "Verificar histórico de irrigação com água de qualidade duvidosa ou adubação recente em excesso."
+      ],
+      "proxima_foto_recomendada": [
+        "Solo ao redor da planta mostrando a umidade",
+        "Folha com queima de borda em close-up"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-051",
@@ -813,7 +2987,35 @@
     "sint_avancado": "Lesões necróticas escuras nas raízes (sem formação de galhas, diferente do nematoide-das-galhas), redução do sistema radicular, queda de folhas, seca de ponteiros e deficiências nutricionais generalizadas.",
     "confianca": 0.2,
     "manejo_prev": "Uso de mudas certificadas e isentas de nematoides, rotação de área ou pousio, evitar consórcio com plantas hospedeiras (ex: braquiária) em áreas de histórico.",
-    "manejo_corr": "Nematicida registrado ou manejo biológico, conforme diagnóstico laboratorial — sintomas aéreos não permitem diferenciação segura de outras causas radiculares."
+    "manejo_corr": "Nematicida registrado ou manejo biológico, conforme diagnóstico laboratorial — sintomas aéreos não permitem diferenciação segura de outras causas radiculares.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Os sintomas aéreos são inespecíficos, indistinguíveis de outros problemas radiculares sem exame de raiz.",
+        "A característica que distingue este nematoide do nematoide-das-galhas é justamente a ausência de galhas: a raiz mostra lesões necróticas escuras e alongadas, sem os engrossamentos nodulares típicos das galhas."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-010",
+          "semelhanca": "Ambos são nematoides fitoparasitas que causam baixo vigor e reboleiras com sintomas aéreos indistinguíveis.",
+          "diferenca_principal": "Pratylenchus causa lesões necróticas na raiz sem formar galhas; Meloidogyne forma galhas nodulares evidentes.",
+          "orgao_diferenciador": "Raiz escavada (presença ou ausência de galhas)",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [],
+      "evidencias_confirmacao": [
+        "Escavar raízes finas e verificar ausência de galhas, apenas lesões necróticas alongadas.",
+        "Enviar amostra para análise nematológica laboratorial — a distinção de espécie exige identificação microscópica."
+      ],
+      "proxima_foto_recomendada": [
+        "Raízes finas escavadas",
+        "Close-up de lesões necróticas na raiz"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "nao",
+      "necessita_confirmacao_laboratorial": true
+    }
   },
   {
     "id": "CAF-052",
@@ -829,7 +3031,56 @@
     "sint_avancado": "Seca progressiva dos ponteiros e ramos laterais, frutos mal granados ou mumificados, podendo ser agravada por fungos oportunistas (Phoma, Colletotrichum) em tecidos já debilitados.",
     "confianca": 0.28,
     "manejo_prev": "Adubação equilibrada conforme análise foliar, manejo da carga pendente (raleio) em variedades muito produtivas e manutenção de reservas via poda adequada.",
-    "manejo_corr": "Reposição nutricional conforme análise foliar; fungicida apenas se houver infecção secundária confirmada, conforme diagnóstico técnico."
+    "manejo_corr": "Reposição nutricional conforme análise foliar; fungicida apenas se houver infecção secundária confirmada, conforme diagnóstico técnico.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "O padrão de plantas afetadas correlaciona-se com a carga de frutos: ramos ou plantas com maior carga produtiva são os primeiros a mostrar seca, enquanto ramos com poucos frutos na mesma planta permanecem sadios.",
+        "Diferente de doenças fúngicas, não há lesão, cancro ou estrutura fúngica visível na base da seca — o ramo simplesmente amarelece e seca a partir da extremidade.",
+        "Pode evoluir para infecção secundária por fungos oportunistas em tecido já debilitado, o que pode complicar o quadro depois de instalado."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-005",
+          "semelhanca": "Ambas causam seca de ponteiros e ramos que pode ser confundida à distância.",
+          "diferenca_principal": "A seca fisiológica correlaciona-se com a carga de frutos e não apresenta lesão fúngica primária na base da seca; a phoma apresenta lesões fúngicas visíveis, geralmente após eventos de frio.",
+          "orgao_diferenciador": "Presença ou ausência de lesão fúngica primária na base da seca",
+          "dificuldade": "media"
+        },
+        {
+          "problema_id": "CAF-021",
+          "semelhanca": "Ambas causam seca descendente de ramos.",
+          "diferenca_principal": "A seca fisiológica correlaciona-se com a carga de frutos e não forma cancro; a fusariose forma cancros com descoloração interna do lenho.",
+          "orgao_diferenciador": "Presença ou ausência de cancro no ramo",
+          "dificuldade": "media"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Amarelecimento e queda de folhas nas extremidades de ramos com muita carga de frutos.",
+          "orgao": "Ramo com carga alta",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Seca progressiva do ponteiro e ramos laterais, frutos mal granados ou mumificados.",
+          "orgao": "Ramo e fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se os ramos afetados são os de maior carga de frutos na planta.",
+        "Procurar (ou descartar) lesão/cancro fúngico na base da seca."
+      ],
+      "proxima_foto_recomendada": [
+        "Ramo mostrando a carga de frutos junto à seca",
+        "Planta inteira comparando ramos com carga alta e baixa"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-053",
@@ -845,7 +3096,55 @@
     "sint_avancado": "Podridão do fruto próxima ao cálice, massa micelial acinzentada sobre os tecidos afetados, frutos mumificados e queda de flores em infecções severas.",
     "confianca": 0.42,
     "manejo_prev": "Arejamento da lavoura, eliminação de restos florais e frutos doentes, evitar excesso de nitrogênio.",
-    "manejo_corr": "Fungicida protetor registrado, aplicado a partir do início da floração em períodos de alta umidade."
+    "manejo_corr": "Fungicida protetor registrado, aplicado a partir do início da floração em períodos de alta umidade.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Massa micelial acinzentada e felpuda cobre a superfície do tecido apodrecido em condições de alta umidade — textura bem diferente das lesões secas e pontuadas da antracnose.",
+        "Costuma iniciar pelo pedicelo e pétalas da flor, avançando depois para o fruto recém-formado próximo ao cálice.",
+        "Ocorre tipicamente durante ou logo após a floração, em períodos chuvosos ou de alta umidade."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-022",
+          "semelhanca": "Ambas atacam flores e frutos, causando podridão e mumificação em condições de alta umidade.",
+          "diferenca_principal": "O mofo-cinzento forma massa micelial acinzentada e felpuda sobre o tecido afetado; a antracnose forma lesões deprimidas escuras com pontuações (acérvulos).",
+          "orgao_diferenciador": "Textura da lesão (felpuda acinzentada vs. seca/pontuada)",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [
+        {
+          "estagio": "inicial",
+          "aparencia": "Escurecimento de pétalas e pedicelos da flor.",
+          "orgao": "Flor",
+          "intensidade": "leve"
+        },
+        {
+          "estagio": "intermediario",
+          "aparencia": "Pequenas manchas deprimidas em brotos jovens.",
+          "orgao": "Broto jovem",
+          "intensidade": "moderada"
+        },
+        {
+          "estagio": "avancado",
+          "aparencia": "Podridão do fruto próxima ao cálice, massa micelial acinzentada, frutos mumificados.",
+          "orgao": "Fruto",
+          "intensidade": "severa"
+        }
+      ],
+      "evidencias_confirmacao": [
+        "Verificar se há massa acinzentada e felpuda visível sobre o tecido em condições úmidas.",
+        "Checar se o problema coincide com um período de floração chuvosa."
+      ],
+      "proxima_foto_recomendada": [
+        "Flor ou fruto jovem em close-up mostrando a massa micelial",
+        "Ramo com flores afetadas"
+      ],
+      "confiabilidade_visual": "media",
+      "diagnostico_exclusivamente_visual": "parcialmente",
+      "necessita_confirmacao_laboratorial": false
+    }
   },
   {
     "id": "CAF-054",
@@ -861,6 +3160,35 @@
     "sint_avancado": "Tombamento de plantas jovens por destruição do sistema radicular, associado à presença de formigas; falhas de estabelecimento em reboleiras na área de plantio.",
     "confianca": 0.24,
     "manejo_prev": "Inspeção do solo antes do plantio em áreas de histórico, evitando restos de madeira/tocos que atraem colônias.",
-    "manejo_corr": "Inseticida de solo registrado, aplicado por profissional habilitado, focado na fase de implantação da lavoura."
+    "manejo_corr": "Inseticida de solo registrado, aplicado por profissional habilitado, focado na fase de implantação da lavoura.",
+    "schemaVersion": 2,
+    "visual": {
+      "evidencias_chave": [
+        "Praticamente não há sintoma visível acima do solo até o tombamento da muda — a colônia é subterrânea e a raiz é destruída antes de qualquer sinal foliar mais evidente aparecer.",
+        "Ao escavar, observam-se galerias de terra construídas pelos cupins aderidas à raiz, ou tubos de terra sobre a superfície do solo próximo à muda.",
+        "Formigas podem estar presentes na área, mas não são a causa — apenas um indício indireto e não específico."
+      ],
+      "diagnostico_diferencial": [
+        {
+          "problema_id": "CAF-018",
+          "semelhanca": "Ambas afetam mudas jovens recém-plantadas e podem causar tombamento.",
+          "diferenca_principal": "A rizoctoniose mostra lesão parda característica no colo da muda; o cupim-subterrâneo destrói a raiz sem lesão de colo visível, deixando galerias de terra características.",
+          "orgao_diferenciador": "Colo da muda (lesão visível vs. ausente)",
+          "dificuldade": "alta"
+        }
+      ],
+      "evolucao": [],
+      "evidencias_confirmacao": [
+        "Escavar a raiz da muda tombada e procurar galerias de terra construídas pelos cupins.",
+        "Verificar presença de tubos de terra na superfície do solo próximo à base da muda."
+      ],
+      "proxima_foto_recomendada": [
+        "Raiz escavada da muda afetada",
+        "Solo ao redor da base mostrando tubos de terra, se houver"
+      ],
+      "confiabilidade_visual": "baixa",
+      "diagnostico_exclusivamente_visual": "nao",
+      "necessita_confirmacao_laboratorial": false
+    }
   }
 ]
