@@ -58,6 +58,28 @@ export function requireApiKey(request: FastifyRequest, reply: FastifyReply, done
   done();
 }
 
+// Teto diário GLOBAL de chamadas a /v1/identify (soma de todas as chaves e
+// visitantes), não por chave — protege o gasto total da empresa com a Groq,
+// que hoje não tem nenhum limite configurado do lado do provedor. Mesma
+// limitação do rate limit acima (memória por instância, reseta em cold
+// start): não é uma garantia matemática absoluta sob concorrência alta, mas
+// reduz de forma real o pior caso e fica sob nosso controle direto no código.
+// A defesa definitiva — fora do alcance do código — é configurar um limite
+// de gasto na própria conta Groq; ver README.
+const IDENTIFY_DAILY_CAP = Number(process.env.IDENTIFY_DAILY_CAP || 150);
+let identifyDayKey = '';
+let identifyDayCount = 0;
+
+function checkIdentifyDailyCap(): { allowed: boolean; count: number } {
+  const todayKey = new Date().toISOString().slice(0, 10); // YYYY-MM-DD em UTC
+  if (todayKey !== identifyDayKey) {
+    identifyDayKey = todayKey;
+    identifyDayCount = 0;
+  }
+  identifyDayCount += 1;
+  return { allowed: identifyDayCount <= IDENTIFY_DAILY_CAP, count: identifyDayCount };
+}
+
 // Escopo extra além de requireApiKey: além de a chave ser válida, ela precisa
 // estar autorizada especificamente para /v1/identify (plano pago). Chaves em
 // TBKA_API_KEYS mas fora de TBKA_API_KEYS_IDENTIFY continuam funcionando
@@ -71,6 +93,18 @@ export function requireIdentifyScope(request: FastifyRequest, reply: FastifyRepl
     reply.code(403).send({
       error: 'forbidden',
       message: 'Este plano não inclui identificação por foto. Faça upgrade para habilitar o /v1/identify.',
+    });
+    return;
+  }
+
+  const { allowed, count } = checkIdentifyDailyCap();
+  reply.header('X-Identify-Daily-Limit', String(IDENTIFY_DAILY_CAP));
+  reply.header('X-Identify-Daily-Used', String(count));
+
+  if (!allowed) {
+    reply.code(429).send({
+      error: 'daily_cap_reached',
+      message: 'A identificação por foto atingiu o limite diário da plataforma. Tente novamente amanhã ou use a busca por texto.',
     });
     return;
   }
